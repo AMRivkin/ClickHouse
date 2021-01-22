@@ -27,6 +27,8 @@ import single_page
 import test
 import util
 import website
+import collections
+import yaml
 
 from cmake_in_clickhouse_generator import generate_cmake_flags_files
 
@@ -43,6 +45,40 @@ class ClickHouseMarkdown(markdown.extensions.Extension):
 
 markdown.extensions.ClickHouseMarkdown = ClickHouseMarkdown
 
+def get_nested_dict(toc_elements, d):
+    for k, v in d.items():
+        if isinstance(v, collections.OrderedDict):
+            toc_element = {'name': k}
+
+            result = [value for key, value in v.items() if key.startswith("hidden-") and 'index.md' in value]
+            if result:
+                toc_element['href'] = result[0]
+            toc_element['items'] = get_nested_dict([], v)
+            toc_elements.append(toc_element)
+        else:
+            if k.startswith("hidden-"):
+                if 'index.md' not in v:
+                    toc_elements.append({'name': os.path.basename(v).capitalize().replace('-', ' ').replace('.md', ''), 'href': v})
+
+            else:
+                toc_elements.append({'name': k, 'href': v})
+
+
+    return toc_elements
+
+
+def dump_toc(lang, args, toc):
+    print(args)
+    toc_elements = []
+    for top_level_toc_elem in toc:
+        get_nested_dict(toc_elements, top_level_toc_elem)
+
+    toc_file = {'title': 'ClickHouse', 'items': toc_elements}
+
+    with open(r'{}/toc.yaml'.format(lang), 'w') as file:
+        documents = yaml.dump(toc_file, file, sort_keys=False)
+
+    exit(0)
 
 def build_for_lang(lang, args):
     logging.info(f'Building {lang} docs')
@@ -121,6 +157,7 @@ def build_for_lang(lang, args):
         )
 
         raw_config['nav'] = nav.build_docs_nav(lang, args)
+        dump_toc(lang, args, raw_config['nav'])
 
         cfg = config.load_config(**raw_config)
 
