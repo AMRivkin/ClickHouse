@@ -1,8 +1,9 @@
 title: ClickHouse
 items:
 - name: Introduction
-  href: introduction/index.md
   items:
+  - name: Introduction
+    href: introduction/index.md
   - name: Overview
     href: index.md
   - name: Distinctive Features
@@ -16,8 +17,9 @@ items:
   - name: Information support
     href: introduction/info.md
 - name: Getting Started
-  href: getting-started/index.md
   items:
+  - name: Getting Started
+    href: getting-started/index.md
   - name: Example Datasets
     items:
     - name: Introduction
@@ -81,8 +83,9 @@ items:
     - name: Proxies
       href: interfaces/third-party/proxy.md
 - name: Engines
-  href: engines/index.md
   items:
+  - name: Engines
+    href: engines/index.md
   - name: Table Engines
     items:
     - name: Introduction
@@ -182,11 +185,13 @@ items:
     - name: Lazy
       href: engines/database-engines/lazy.md
 - name: SQL Reference
-  href: sql-reference/index.md
   items:
+  - name: SQL Reference
+    href: sql-reference/index.md
   - name: Statements
-    href: sql-reference/statements/index.md
     items:
+    - name: Statements
+      href: sql-reference/statements/index.md
     - name: SELECT
       items:
       - name: Overview
@@ -384,8 +389,9 @@ items:
     - name: arrayJoin
       href: sql-reference/functions/array-join.md
     - name: Geo
-      href: sql-reference/functions/geo/index.md
       items:
+      - name: Geo
+        href: sql-reference/functions/geo/index.md
       - name: Geographical Coordinates
         href: sql-reference/functions/geo/coordinates.md
       - name: Geohash
@@ -869,8 +875,9 @@ items:
   - name: Caches
     href: operations/caches.md
 - name: Development
-  href: development/index.md
   items:
+  - name: Development
+    href: development/index.md
   - name: For Beginners
     href: development/developer-instruction.md
   - name: Architecture Overview
@@ -906,8 +913,9 @@ items:
   - name: Introduction
     href: commercial/index.md
 - name: F.A.Q.
-  href: faq/index.md
   items:
+  - name: F.A.Q.
+    href: faq/index.md
   - name: General|hidden-folder
     items:
     - name: General
