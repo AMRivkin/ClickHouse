@@ -12,7 +12,7 @@ items:
     href: introduction/history.md
   - name: Adopters
     href: introduction/adopters.md
-  - name: Information support
+  - name: Information supportOptimizing Performance
     href: introduction/info.md
 - name: Getting Started
   items:
@@ -702,8 +702,9 @@ items:
   - name: Quotas
     href: operations/quotas.md
   - name: Optimizing Performance
-    href: operations/optimizing-performance/index.md
     items:
+    - name: Overview
+      href: operations/optimizing-performance/index.md
     - name: Query Profiling
       href: operations/optimizing-performance/sampling-query-profiler.md
   - name: System Tables
