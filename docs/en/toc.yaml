@@ -875,8 +875,6 @@ items:
     href: operations/caches.md
 - name: Development
   items:
-  - name: Development
-    href: development/index.md
   - name: For Beginners
     href: development/developer-instruction.md
   - name: Architecture Overview
