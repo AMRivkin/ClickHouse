@@ -47,7 +47,7 @@ You can [configure](../../../sql-reference/dictionaries/external-dictionaries/ex
 
 {% note alert "Attention" %}
 
-    You can convert values for a small dictionary by describing it in a `SELECT` query (see the [transform](../../../sql-reference/functions/other-functions.md) function). This functionality is not related to external dictionaries.
+You can convert values for a small dictionary by describing it in a `SELECT` query (see the [transform](../../../sql-reference/functions/other-functions.md) function). This functionality is not related to external dictionaries.
 
 {% endnote %}
 

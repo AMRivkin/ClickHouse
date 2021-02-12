@@ -7,7 +7,7 @@ toc_title: Client Libraries
 
 {% note warning "Disclaimer" %}
 
-    Yandex does **not** maintain the libraries listed below and hasn’t done any extensive testing to ensure their quality.
+Yandex does **not** maintain the libraries listed below and hasn’t done any extensive testing to ensure their quality.
 
 {% endnote %}
 

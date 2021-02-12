@@ -44,7 +44,7 @@ When creating a `CollapsingMergeTree` table, the same [query clauses](../../../e
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+Do not use this method in new projects and, if possible, switch the old projects to the method described above.
 
 {% endnote %}
 

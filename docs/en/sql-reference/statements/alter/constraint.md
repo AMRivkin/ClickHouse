@@ -18,7 +18,7 @@ Queries will add or remove metadata about constraints from table so they are pro
 
 {% note warning "Warning" %}
 
-    Constraint check **will not be executed** on existing data if it was added.
+Constraint check **will not be executed** on existing data if it was added.
 
 {% endnote %}
 

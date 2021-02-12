@@ -80,7 +80,7 @@ FROM hdfs('hdfs://hdfs1:9000/{some,another}_dir/*', 'TSV', 'name String, value U
 
 {% note warning "Warning" %}
 
-    If your listing of files contains number ranges with leading zeros, use the construction with braces for each digit separately or use `?`.
+If your listing of files contains number ranges with leading zeros, use the construction with braces for each digit separately or use `?`.
 
 {% endnote %}
 

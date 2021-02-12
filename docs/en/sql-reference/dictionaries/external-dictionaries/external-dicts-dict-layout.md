@@ -298,7 +298,7 @@ Set a large enough cache size. You need to experiment to select the number of ce
 
 {% note warning "Warning" %}
 
-    Do not use ClickHouse as a source, because it is slow to process queries with random reads.
+Do not use ClickHouse as a source, because it is slow to process queries with random reads.
 
 {% endnote %}
 

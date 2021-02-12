@@ -637,7 +637,7 @@ The result of the function depends on the affected data blocks and the order of 
 
 {% note warning "Warning" %}
 
-    It can reach the neighbor rows only inside the currently processed data block.
+It can reach the neighbor rows only inside the currently processed data block.
 
 {% endnote %}
 
@@ -749,7 +749,7 @@ Returns 0 for the first row and the difference from the previous row for each su
 
 {% note warning "Warning" %}
 
-    It can reach the previos row only inside the currently processed data block.
+It can reach the previos row only inside the currently processed data block.
 
 {% endnote %}
     
@@ -1291,7 +1291,7 @@ Accumulates states of an aggregate function for each row of a data block.
 
 {% note warning "Warning" %}
 
-    The state is reset for each new data block.
+The state is reset for each new data block.
 
 {% endnote %}
 
@@ -1754,7 +1754,7 @@ Type: [UInt8](../../sql-reference/data-types/int-uint.md#uint-ranges).
 
 {% note info "Note" %}
 
-    For `Decimal` values takes into account their scales: calculates result over underlying integer type which is `(value * scale)`. For example: `countDigits(42) = 2`, `countDigits(42.000) = 5`, `countDigits(0.04200) = 4`. I.e. you may check decimal overflow for `Decimal64` with `countDecimal(x) > 18`. It's a slow variant of [isDecimalOverflow](#is-decimal-overflow).
+For `Decimal` values takes into account their scales: calculates result over underlying integer type which is `(value * scale)`. For example: `countDigits(42) = 2`, `countDigits(42.000) = 5`, `countDigits(0.04200) = 4`. I.e. you may check decimal overflow for `Decimal64` with `countDecimal(x) > 18`. It's a slow variant of [isDecimalOverflow](#is-decimal-overflow).
 
 {% endnote %}
 

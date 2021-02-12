@@ -31,7 +31,7 @@ For a description of request parameters, see [statement description](../../../sq
 
 {% note info "Attention" %}
 
-    Uniqueness of rows is determined by the `ORDER BY` table section, not `PRIMARY KEY`.
+Uniqueness of rows is determined by the `ORDER BY` table section, not `PRIMARY KEY`.
 
 {% endnote %}
 
@@ -54,7 +54,7 @@ When creating a `ReplacingMergeTree` table the same [clauses](../../../engines/t
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+Do not use this method in new projects and, if possible, switch the old projects to the method described above.
 
 {% endnote %}
 

@@ -116,7 +116,7 @@ Union
 
 {% note info "Note" %}
 
-  Step and query cost estimation is not supported.
+Step and query cost estimation is not supported.
 
 {% endnote %}
 

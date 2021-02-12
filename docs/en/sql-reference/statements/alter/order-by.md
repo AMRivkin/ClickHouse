@@ -15,6 +15,6 @@ The command is lightweight in a sense that it only changes metadata. To keep the
 
 {% note info "Note" %}
 
-    It only works for tables in the [`MergeTree`](../../../engines/table-engines/mergetree-family/mergetree.md) family (including [replicated](../../../engines/table-engines/mergetree-family/replication.md) tables).
+It only works for tables in the [`MergeTree`](../../../engines/table-engines/mergetree-family/mergetree.md) family (including [replicated](../../../engines/table-engines/mergetree-family/replication.md) tables).
 
 {% endnote %}

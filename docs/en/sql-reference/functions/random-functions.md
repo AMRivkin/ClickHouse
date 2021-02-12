@@ -9,7 +9,7 @@ All the functions accept zero arguments or one argument. If an argument is passe
 
 {% note info "Note" %}
 
-    Non-cryptographic generators of pseudo-random numbers are used.
+Non-cryptographic generators of pseudo-random numbers are used.
 
 {% endnote %}
 

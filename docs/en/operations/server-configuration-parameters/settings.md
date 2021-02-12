@@ -25,7 +25,7 @@ Data compression settings for [MergeTree](../../engines/table-engines/mergetree-
 
 {% note warning "Warning" %}
 
-    Don’t use it if you have just started using ClickHouse.
+Don’t use it if you have just started using ClickHouse.
 
 {% endnote %}
 
@@ -95,7 +95,7 @@ Default value: `1073741824` (1 GB).
 
 {% note info "Note" %}
 
-    Hard limit is configured via system tools
+Hard limit is configured via system tools
 
 {% endnote %}
 
@@ -717,7 +717,7 @@ The path to the directory containing data.
 
 {% note info "Note" %}
 
-    The trailing slash is mandatory.
+The trailing slash is mandatory.
 
 {% endnote %}
 
@@ -961,7 +961,7 @@ Path to temporary data for processing large queries.
 
 {% note info "Note" %}
 
-    The trailing slash is mandatory.
+The trailing slash is mandatory.
 
 {% endnote %}
 
@@ -979,7 +979,7 @@ If not set, [tmp_path](#tmp-path) is used, otherwise it is ignored.
 
 {% note info "Note" %}
 
-    - `move_factor` is ignored.
+- `move_factor` is ignored.
 
 {% endnote %}
 - `keep_free_space_bytes` is ignored.
@@ -1101,7 +1101,7 @@ If `use_minimalistic_part_header_in_zookeeper = 1`, then [replicated](../../engi
 
 {% note alert "Attention" %}
 
-    After applying `use_minimalistic_part_header_in_zookeeper = 1`, you can’t downgrade the ClickHouse server to a version that doesn’t support this setting. Be careful when upgrading ClickHouse on servers in a cluster. Don’t upgrade all the servers at once. It is safer to test new versions of ClickHouse in a test environment, or on just a few servers of a cluster.
+After applying `use_minimalistic_part_header_in_zookeeper = 1`, you can’t downgrade the ClickHouse server to a version that doesn’t support this setting. Be careful when upgrading ClickHouse on servers in a cluster. Don’t upgrade all the servers at once. It is safer to test new versions of ClickHouse in a test environment, or on just a few servers of a cluster.
 
 {% endnote %}
 

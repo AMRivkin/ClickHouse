@@ -21,7 +21,7 @@ remoteSecure('addresses_expr', db.table[, 'user'[, 'password'], sharding_key])
 
 {% note info "Important" %}
 
-    The port is required for an IPv6 address.
+The port is required for an IPv6 address.
 
 {% endnote %}
 

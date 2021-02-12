@@ -4,7 +4,7 @@ Contains information about executed queries, for example, start time, duration o
 
 {% note info "Note" %}
 
-    This table doesn’t contain the ingested data for `INSERT` queries.
+This table doesn’t contain the ingested data for `INSERT` queries.
 
 {% endnote %}
 

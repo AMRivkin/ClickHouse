@@ -88,7 +88,7 @@ sequenceMatch(pattern)(timestamp, cond1, cond2, ...)
 
 {% note warning "Warning" %}
 
-    Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
+Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
 
 {% endnote %}
 
@@ -174,7 +174,7 @@ Counts the number of event chains that matched the pattern. The function searche
 
 {% note warning "Warning" %}
 
-    Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
+Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
 
 {% endnote %}
 

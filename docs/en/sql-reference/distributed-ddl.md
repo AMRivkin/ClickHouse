@@ -19,6 +19,6 @@ The local version of the query will eventually be executed on each host in the c
 
 {% note warning "Warning" %}
 
-    The order for executing queries within a single host is guaranteed.
+The order for executing queries within a single host is guaranteed.
 
 {% endnote %}

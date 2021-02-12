@@ -12,6 +12,6 @@ If there is a `WHERE` clause, it must contain an expression with the `UInt8` typ
 
 {% note info "Note" %}
 
-    There’s a filtering optimization called [prewhere](../../../sql-reference/statements/select/prewhere.md).
+There’s a filtering optimization called [prewhere](../../../sql-reference/statements/select/prewhere.md).
 
 {% endnote %}

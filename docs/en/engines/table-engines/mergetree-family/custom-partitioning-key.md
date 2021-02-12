@@ -37,7 +37,7 @@ When inserting new data to a table, this data is stored as a separate part (chun
 
 {% note info "Info" %}
 
-    A merge only works for data parts that have the same value for the partitioning expression. This means **you shouldn’t make overly granular partitions** (more than about a thousand partitions). Otherwise, the `SELECT` query performs poorly because of an unreasonably large number of files in the file system and open file descriptors.
+A merge only works for data parts that have the same value for the partitioning expression. This means **you shouldn’t make overly granular partitions** (more than about a thousand partitions). Otherwise, the `SELECT` query performs poorly because of an unreasonably large number of files in the file system and open file descriptors.
 
 {% endnote %}
 
@@ -77,7 +77,7 @@ Let’s break down the name of the first part: `201901_1_3_1`:
 
 {% note info "Info" %}
 
-    The parts of old-type tables have the name: `20190117_20190123_2_2_0` (minimum date - maximum date - minimum block number - maximum block number - level).
+The parts of old-type tables have the name: `20190117_20190123_2_2_0` (minimum date - maximum date - minimum block number - maximum block number - level).
 
 {% endnote %}
 

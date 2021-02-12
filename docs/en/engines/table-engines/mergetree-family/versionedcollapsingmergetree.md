@@ -55,7 +55,7 @@ When creating a `VersionedCollapsingMergeTree` table, the same [clauses](../../.
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects. If possible, switch the old projects to the method described above.
+Do not use this method in new projects. If possible, switch the old projects to the method described above.
 
 {% endnote %}
 

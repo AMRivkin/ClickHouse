@@ -163,7 +163,7 @@ $ clickhouse-client --query "select count(*) from datasets.ontime"
 
 {% note info "Info" %}
 
-    If you will run the queries described below, you have to use the full table name, `datasets.ontime`.
+If you will run the queries described below, you have to use the full table name, `datasets.ontime`.
 
 {% endnote %}
 

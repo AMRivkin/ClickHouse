@@ -212,7 +212,7 @@ If you have a problems with encodings when using Oracle, see the corresponding [
 
 {% note alert "Attention" %}
 
-    When connecting to the database through the ODBC driver connection parameter `Servername` can be substituted. In this case values of `USERNAME` and `PASSWORD` from `odbc.ini` are sent to the remote server and can be compromised.
+When connecting to the database through the ODBC driver connection parameter `Servername` can be substituted. In this case values of `USERNAME` and `PASSWORD` from `odbc.ini` are sent to the remote server and can be compromised.
 
 {% endnote %}
 

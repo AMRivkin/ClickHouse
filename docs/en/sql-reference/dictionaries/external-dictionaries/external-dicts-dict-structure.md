@@ -58,7 +58,7 @@ An xml structure can contain either `<id>` or `<key>`. DDL-query must contain si
 
 {% note warning "Warning" %}
 
-    You must not describe key as an attribute.
+You must not describe key as an attribute.
 
 {% endnote %}
 
@@ -97,7 +97,7 @@ The key can be a `tuple` from any types of fields. The [layout](../../../sql-ref
 
 {% note tip "Tip" %}
 
-    A composite key can consist of a single element. This makes it possible to use a string as the key, for instance.
+A composite key can consist of a single element. This makes it possible to use a string as the key, for instance.
 
 {% endnote %}
 

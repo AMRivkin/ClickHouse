@@ -24,7 +24,7 @@ If you don’t have the [Docker](https://docs.docker.com/install/) yet, install 
 
 {% note info "Note" %}
 
-    [Docker](https://www.docker.com) is a software platform that allows you to create containers that isolate a CatBoost and ClickHouse installation from the rest of the system.
+[Docker](https://www.docker.com) is a software platform that allows you to create containers that isolate a CatBoost and ClickHouse installation from the rest of the system.
 
 {% endnote %}
 
@@ -64,7 +64,7 @@ $ clickhouse client
 
 {% note info "Note" %}
 
-    The ClickHouse server is already running inside the Docker container.
+The ClickHouse server is already running inside the Docker container.
 
 {% endnote %}
 
@@ -127,7 +127,7 @@ FROM amazon_train
 
 {% note info "Note" %}
 
-    **Optional step.** The Docker image contains everything you need to run CatBoost and ClickHouse.
+**Optional step.** The Docker image contains everything you need to run CatBoost and ClickHouse.
 
 {% endnote %}
 
@@ -193,7 +193,7 @@ LIMIT 10
 
 {% note info "Note" %}
 
-    Function [modelEvaluate](../sql-reference/functions/other-functions.md#function-modelevaluate) returns tuple with per-class raw predictions for multiclass models.
+Function [modelEvaluate](../sql-reference/functions/other-functions.md#function-modelevaluate) returns tuple with per-class raw predictions for multiclass models.
 
 {% endnote %}
 
@@ -219,7 +219,7 @@ LIMIT 10
 
 {% note info "Note" %}
 
-    More info about [exp()](../sql-reference/functions/math-functions.md) function.
+More info about [exp()](../sql-reference/functions/math-functions.md) function.
 
 {% endnote %}
 
@@ -248,7 +248,7 @@ FROM
 
 {% note info "Note" %}
 
-    More info about [avg()](../sql-reference/aggregate-functions/reference/avg.md#agg_function-avg) and [log()](../sql-reference/functions/math-functions.md) functions.
+More info about [avg()](../sql-reference/aggregate-functions/reference/avg.md#agg_function-avg) and [log()](../sql-reference/functions/math-functions.md) functions.
 
 {% endnote %}
 

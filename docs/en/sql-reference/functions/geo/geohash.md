@@ -82,7 +82,7 @@ geohashesInBox(longitude_min, latitude_min, longitude_max, latitude_max, precisi
 
 {% note info "Note" %}
 
-    All coordinate parameters must be of the same type: either `Float32` or `Float64`.
+All coordinate parameters must be of the same type: either `Float32` or `Float64`.
 
 {% endnote %}
 
@@ -95,7 +95,7 @@ Type: [Array](../../../sql-reference/data-types/array.md)([String](../../../sql-
 
 {% note info "Note" %}
 
-    Function throws an exception if resulting array is over 10’000’000 items long.
+Function throws an exception if resulting array is over 10’000’000 items long.
 
 {% endnote %}
 

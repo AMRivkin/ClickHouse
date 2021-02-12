@@ -17,7 +17,7 @@ The command is lightweight in the sense that it only changes metadata. The prima
 
 {% note info "Note" %}
 
-    It only works for tables in the [MergeTree](../../../engines/table-engines/mergetree-family/mergetree.md) family (including [replicated](../../../engines/table-engines/mergetree-family/replication.md) tables).
+It only works for tables in the [MergeTree](../../../engines/table-engines/mergetree-family/mergetree.md) family (including [replicated](../../../engines/table-engines/mergetree-family/replication.md) tables).
 
 {% endnote %}
 

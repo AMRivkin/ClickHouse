@@ -7,7 +7,7 @@ toc_title: Integrations
 
 {% note warning "Disclaimer" %}
 
-    Yandex does **not** maintain the tools and libraries listed below and haven’t done any extensive testing to ensure their quality.
+Yandex does **not** maintain the tools and libraries listed below and haven’t done any extensive testing to ensure their quality.
 
 {% endnote %}
 

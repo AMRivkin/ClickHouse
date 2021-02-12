@@ -28,7 +28,7 @@ There are additional endpoints with specific ClickHouse releases to experiment w
 
 {% note info "Note" %}
 
-    All these endpoints require a secure TLS connection.
+All these endpoints require a secure TLS connection.
 
 {% endnote %}
 
@@ -67,6 +67,6 @@ The Playground backend is just a ClickHouse cluster without any additional serve
 
 {% note warning "Warning" %}
 
-    Exposing the ClickHouse server to the public internet in any other situation is **strongly not recommended**. Make sure it listens only on a private network and is covered by a properly configured firewall.
+Exposing the ClickHouse server to the public internet in any other situation is **strongly not recommended**. Make sure it listens only on a private network and is covered by a properly configured firewall.
 
 {% endnote %}

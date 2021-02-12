@@ -9,7 +9,7 @@ When writing to a `Null` table, data is ignored. When reading from a `Null` tabl
 
 {% note info "Hint" %}
 
-    However, you can create a materialized view on a `Null` table. So the data written to the table will end up affecting the view, but original raw data will still be discarded.
+However, you can create a materialized view on a `Null` table. So the data written to the table will end up affecting the view, but original raw data will still be discarded.
 
 {% endnote %}
 

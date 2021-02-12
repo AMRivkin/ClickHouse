@@ -58,7 +58,7 @@ When creating a `GraphiteMergeTree` table, the same [clauses](../../../engines/t
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+Do not use this method in new projects and, if possible, switch the old projects to the method described above.
 
 {% endnote %}
 
@@ -123,7 +123,7 @@ default
 
 {% note warning "Attention" %}
 
-    Patterns must be strictly ordered:
+Patterns must be strictly ordered:
 
 {% endnote %}
 

@@ -103,7 +103,7 @@ There are two options for IN-s with subqueries (similar to JOINs): normal `IN` /
 
 {% note alert "Attention" %}
 
-    Remember that the algorithms described below may work differently depending on the [settings](../../operations/settings/settings.md) `distributed_product_mode` setting.
+Remember that the algorithms described below may work differently depending on the [settings](../../operations/settings/settings.md) `distributed_product_mode` setting.
 
 {% endnote %}
 

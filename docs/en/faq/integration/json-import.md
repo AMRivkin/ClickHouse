@@ -31,6 +31,6 @@ Instead of inserting data manually, you might consider to use one of [client lib
 
 {% note info "Note" %}
 
-    Settings are specified as `GET` parameters for the HTTP interface or as additional command-line arguments prefixed with `--` for the `CLI` interface.
+Settings are specified as `GET` parameters for the HTTP interface or as additional command-line arguments prefixed with `--` for the `CLI` interface.
 
 {% endnote %}

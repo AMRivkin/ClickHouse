@@ -9,7 +9,7 @@ Copies data from the tables in one cluster to tables in another (or the same) cl
 
 {% note warning "Warning" %}
 
-    To get a consistent copy, the data in the source tables and partitions should not change during the entire process.
+To get a consistent copy, the data in the source tables and partitions should not change during the entire process.
 
 {% endnote %}
 

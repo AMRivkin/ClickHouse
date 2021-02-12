@@ -40,7 +40,7 @@ Additional join types available in ClickHouse:
 
 {% note info "Note" %}
 
-    The default join type can be overriden using [join_default_strictness](../../../operations/settings/settings.md#settings-join_default_strictness) setting.
+The default join type can be overriden using [join_default_strictness](../../../operations/settings/settings.md#settings-join_default_strictness) setting.
 
 {% endnote %}
 
@@ -95,7 +95,7 @@ For example, consider the following tables:
 
 {% note info "Note" %}
 
-    `ASOF` join is **not** supported in the [Join](../../../engines/table-engines/special/join.md) table engine.
+`ASOF` join is **not** supported in the [Join](../../../engines/table-engines/special/join.md) table engine.
 
 {% endnote %}
 

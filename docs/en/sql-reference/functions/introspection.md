@@ -9,7 +9,7 @@ You can use functions described in this chapter to introspect [ELF](https://en.w
 
 {% note warning "Warning" %}
 
-    These functions are slow and may impose security considerations.
+These functions are slow and may impose security considerations.
 
 {% endnote %}
 

@@ -89,7 +89,7 @@ Examples:
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects. If possible, switch old projects to the method described above.
+Do not use this method in new projects. If possible, switch old projects to the method described above.
 
 {% endnote %}
 

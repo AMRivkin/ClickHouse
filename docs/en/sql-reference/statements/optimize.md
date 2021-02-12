@@ -22,6 +22,6 @@ When `OPTIMIZE` is used with the [ReplicatedMergeTree](../../engines/table-engin
 
 {% note warning "Warning" %}
 
-    `OPTIMIZE` can’t fix the “Too many parts” error.
+`OPTIMIZE` can’t fix the “Too many parts” error.
 
 {% endnote %}

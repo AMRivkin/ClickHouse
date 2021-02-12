@@ -15,7 +15,7 @@ During query processing, ClickHouse selects data ordered by sorting key. The sor
 
 {% note info "Note" %}
 
-    `LIMIT BY` is not related to [LIMIT](../../../sql-reference/statements/select/limit.md). They can both be used in the same query.
+`LIMIT BY` is not related to [LIMIT](../../../sql-reference/statements/select/limit.md). They can both be used in the same query.
 
 {% endnote %}
 

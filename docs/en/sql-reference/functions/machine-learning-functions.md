@@ -47,7 +47,7 @@ bayesAB(distribution_name, higher_is_better, variant_names, x, y)
 
 {% note info "Note" %}
 
-    All three arrays must have the same size. All `x` and `y` values must be non-negative constant numbers. `y` cannot be larger than `x`.
+All three arrays must have the same size. All `x` and `y` values must be non-negative constant numbers. `y` cannot be larger than `x`.
 
 {% endnote %}
 

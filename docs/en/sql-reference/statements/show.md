@@ -354,7 +354,7 @@ Returns a list of clusters. All available clusters are listed in the [system.clu
 
 {% note info "Note" %}
 
-    `SHOW CLUSTER name` query displays the contents of system.clusters table for this cluster.
+`SHOW CLUSTER name` query displays the contents of system.clusters table for this cluster.
 
 {% endnote %}
 

@@ -26,7 +26,7 @@ We recommend using SQL-driven workflow. Both of the configuration methods work s
 
 {% note info "Warning" %}
 
-    You can’t manage the same access entity by both configuration methods simultaneously.
+You can’t manage the same access entity by both configuration methods simultaneously.
 
 {% endnote %}
 

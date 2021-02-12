@@ -51,7 +51,7 @@ If you intend to run `clickhouse-server`, make sure to increase the system’s m
 
 {% note info "Note" %}
 
-    You’ll need to use sudo.
+You’ll need to use sudo.
 
 {% endnote %}
 

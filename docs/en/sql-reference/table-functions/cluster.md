@@ -10,7 +10,7 @@ Allows to access all shards in an existing cluster which configured in `remote_s
 
 {% note info "Note" %}
 
-    All available clusters are listed in the `system.clusters` table.
+All available clusters are listed in the `system.clusters` table.
 
 {% endnote %}
 

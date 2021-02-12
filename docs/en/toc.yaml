@@ -16,7 +16,7 @@ items:
     href: introduction/info.md
 - name: Getting Started
   items:
-  - name: Getting Started
+  - name: Overview
     href: getting-started/index.md
   - name: Example Datasets
     items:

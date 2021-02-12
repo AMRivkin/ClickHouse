@@ -157,7 +157,7 @@ SYSTEM STOP MERGES [ON VOLUME <volume_name> | [db.]merge_tree_family_table_name]
 
 {% note info "Note" %}
 
-    `DETACH / ATTACH` table will start background merges for the table even in case when merges have been stopped for all MergeTree tables before.
+`DETACH / ATTACH` table will start background merges for the table even in case when merges have been stopped for all MergeTree tables before.
 
 {% endnote %}
 

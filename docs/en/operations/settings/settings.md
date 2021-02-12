@@ -291,7 +291,7 @@ When performing `INSERT` queries, replace omitted input column values with defau
 
 {% note info "Note" %}
 
-    When this option is enabled, extended table metadata are sent from server to client. It consumes additional computing resources on the server and can reduce performance.
+When this option is enabled, extended table metadata are sent from server to client. It consumes additional computing resources on the server and can reduce performance.
 
 {% endnote %}
 
@@ -484,7 +484,7 @@ Changes behaviour of join operations with `ANY` strictness.
 
 {% note warning "Attention" %}
 
-    This setting applies only for `JOIN` operations with [Join](../../engines/table-engines/special/join.md) engine tables.
+This setting applies only for `JOIN` operations with [Join](../../engines/table-engines/special/join.md) engine tables.
 
 {% endnote %}
 
@@ -559,7 +559,7 @@ Enables legacy ClickHouse server behaviour in `ANY INNER|LEFT JOIN` operations.
 
 {% note info "Warning" %}
 
-    Use this setting only for backward compatibility if your use cases depend on legacy `JOIN` behaviour.
+Use this setting only for backward compatibility if your use cases depend on legacy `JOIN` behaviour.
 
 {% endnote %}
 
@@ -857,7 +857,7 @@ The maximum size of blocks of uncompressed data before compressing for writing t
 
 {% note info "Warning" %}
 
-    This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
+This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
 
 {% endnote %}
 
@@ -877,7 +877,7 @@ We are writing a URL column with the String type (average size of 60 bytes per v
 
 {% note info "Warning" %}
 
-    This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
+This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
 
 {% endnote %}
 
@@ -1099,7 +1099,7 @@ Default value: 1.
 
 {% note warning "Warning" %}
 
-    Disable this setting if you use [max_parallel_replicas](#settings-max_parallel_replicas).
+Disable this setting if you use [max_parallel_replicas](#settings-max_parallel_replicas).
 
 {% endnote %}
 
@@ -1612,7 +1612,7 @@ See also:
 
 {% note info "Note" %}
 
-    Right now it requires `optimize_skip_unused_shards` (the reason behind this is that one day it may be enabled by default, and it will work correctly only if data was inserted via Distributed table, i.e. data is distributed according to sharding_key).
+Right now it requires `optimize_skip_unused_shards` (the reason behind this is that one day it may be enabled by default, and it will work correctly only if data was inserted via Distributed table, i.e. data is distributed according to sharding_key).
 
 {% endnote %}
 
@@ -1710,7 +1710,7 @@ Sets the priority ([nice](https://en.wikipedia.org/wiki/Nice_(Unix))) for thread
 
 {% note warning "Warning" %}
 
-    To use this setting, you need to set the `CAP_SYS_NICE` capability. The `clickhouse-server` package sets it up during installation. Some virtual environments don’t allow you to set the `CAP_SYS_NICE` capability. In this case, `clickhouse-server` shows a message about it at the start.
+To use this setting, you need to set the `CAP_SYS_NICE` capability. The `clickhouse-server` package sets it up during installation. Some virtual environments don’t allow you to set the `CAP_SYS_NICE` capability. In this case, `clickhouse-server` shows a message about it at the start.
 
 {% endnote %}
 
@@ -1909,7 +1909,7 @@ Default value: `1`.
 
 {% note info "Note" %}
 
-    - with `use_compact_format_in_distributed_parts_names=0` changes from cluster definition will not be applied for async INSERT.
+- with `use_compact_format_in_distributed_parts_names=0` changes from cluster definition will not be applied for async INSERT.
     - with `use_compact_format_in_distributed_parts_names=1` changing the order of the nodes in the cluster definition, will change the `shard_index`/`replica_index` so be aware.
 
 {% endnote %}

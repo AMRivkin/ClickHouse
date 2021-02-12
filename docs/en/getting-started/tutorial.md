@@ -576,7 +576,7 @@ INSERT INTO tutorial.hits_all SELECT * FROM tutorial.hits_v1;
 
 {% note warning "Notice" %}
 
-    This approach is not suitable for the sharding of large tables. There’s a separate tool [clickhouse-copier](../operations/utilities/clickhouse-copier.md) that can re-shard arbitrary large tables.
+This approach is not suitable for the sharding of large tables. There’s a separate tool [clickhouse-copier](../operations/utilities/clickhouse-copier.md) that can re-shard arbitrary large tables.
 
 {% endnote %}
 
@@ -614,7 +614,7 @@ To enable native replication [ZooKeeper](http://zookeeper.apache.org/) is requir
 
 {% note info "Note" %}
 
-    ZooKeeper is not a strict requirement: in some simple cases, you can duplicate the data by writing it into all the replicas from your application code. This approach is **not** recommended, in this case, ClickHouse won’t be able to guarantee data consistency on all replicas. Thus it becomes the responsibility of your application.
+ZooKeeper is not a strict requirement: in some simple cases, you can duplicate the data by writing it into all the replicas from your application code. This approach is **not** recommended, in this case, ClickHouse won’t be able to guarantee data consistency on all replicas. Thus it becomes the responsibility of your application.
 
 {% endnote %}
 

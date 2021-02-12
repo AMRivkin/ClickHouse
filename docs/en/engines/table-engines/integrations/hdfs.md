@@ -100,7 +100,7 @@ CREATE TABLE table_with_asterisk (name String, value UInt32) ENGINE = HDFS('hdfs
 
 {% note warning "Warning" %}
 
-    If the listing of files contains number ranges with leading zeros, use the construction with braces for each digit separately or use `?`.
+If the listing of files contains number ranges with leading zeros, use the construction with braces for each digit separately or use `?`.
 
 {% endnote %}
 

@@ -9,7 +9,7 @@ The `users` section of the `user.xml` configuration file contains user settings.
 
 {% note info "Information" %}
 
-    ClickHouse also supports [SQL-driven workflow](../../operations/access-rights.md#access-control) for managing users. We recommend using it.
+ClickHouse also supports [SQL-driven workflow](../../operations/access-rights.md#access-control) for managing users. We recommend using it.
 
 {% endnote %}
 
@@ -121,7 +121,7 @@ To open access for user from any network, specify:
 
 {% note warning "Warning" %}
 
-    It’s insecure to open access from any network unless you have a firewall properly configured or the server is not directly connected to Internet.
+It’s insecure to open access from any network unless you have a firewall properly configured or the server is not directly connected to Internet.
 
 {% endnote %}
 

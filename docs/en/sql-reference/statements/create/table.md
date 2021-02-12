@@ -135,7 +135,7 @@ PRIMARY KEY(expr1[, expr2,...]);
 
 {% note warning "Warning" %}
 
-    You can't combine both ways in one query.
+You can't combine both ways in one query.
 
 {% endnote %}
 
@@ -195,7 +195,7 @@ To select the best codec combination for you project, pass benchmarks similar to
 
 {% note warning "Warning" %}
 
-    You can’t decompress ClickHouse database files with external utilities like `lz4`. Instead, use the special [clickhouse-compressor](https://github.com/ClickHouse/ClickHouse/tree/master/programs/compressor) utility.
+You can’t decompress ClickHouse database files with external utilities like `lz4`. Instead, use the special [clickhouse-compressor](https://github.com/ClickHouse/ClickHouse/tree/master/programs/compressor) utility.
 
 {% endnote %}
 

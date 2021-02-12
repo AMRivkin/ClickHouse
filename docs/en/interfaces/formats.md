@@ -686,7 +686,7 @@ CREATE TABLE IF NOT EXISTS example_table
 
 {% note info "Warning" %}
 
-    When inserting data with `insert_sample_with_metadata = 1`, ClickHouse consumes more computational resources, compared to insertion with `insert_sample_with_metadata = 0`.
+When inserting data with `insert_sample_with_metadata = 1`, ClickHouse consumes more computational resources, compared to insertion with `insert_sample_with_metadata = 0`.
 
 {% endnote %}
 
@@ -712,7 +712,7 @@ Unlike the [JSON](#json) format, there is no substitution of invalid UTF-8 seque
 
 {% note info "Note" %}
 
-    Any set of bytes can be output in the strings. Use the `JSONEachRow` format if you are sure that the data in the table can be formatted as JSON without losing any information.
+Any set of bytes can be output in the strings. Use the `JSONEachRow` format if you are sure that the data in the table can be formatted as JSON without losing any information.
 
 {% endnote %}
 
@@ -1230,7 +1230,7 @@ SELECT * FROM topic1_stream;
 
 {% note info "Warning" %}
 
-    Setting `format_avro_schema_registry_url` needs to be configured in `users.xml` to maintain it’s value after a restart. Also you can use the `format_avro_schema_registry_url` setting of the `Kafka` table engine.
+Setting `format_avro_schema_registry_url` needs to be configured in `users.xml` to maintain it’s value after a restart. Also you can use the `format_avro_schema_registry_url` setting of the `Kafka` table engine.
 
 {% endnote %}
 

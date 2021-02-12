@@ -29,7 +29,7 @@ Main features:
 
 {% note info "Info" %}
 
-    The [Merge](../../../engines/table-engines/special/merge.md#merge) engine does not belong to the `*MergeTree` family.
+The [Merge](../../../engines/table-engines/special/merge.md#merge) engine does not belong to the `*MergeTree` family.
 
 {% endnote %}
 
@@ -123,7 +123,7 @@ The `index_granularity` setting can be omitted because 8192 is the default value
 
 {% note alert "Attention" %}
 
-    Do not use this method in new projects. If possible, switch old projects to the method described above.
+Do not use this method in new projects. If possible, switch old projects to the method described above.
 
 {% endnote %}
 
@@ -375,7 +375,7 @@ Functions with a constant argument that is less than ngram size can’t be used 
 
 {% note info "Note" %}
 
-    Bloom filters can have false positive matches, so the `ngrambf_v1`, `tokenbf_v1`, and `bloom_filter` indexes can’t be used for optimizing queries where the result of a function is expected to be false, for example:
+Bloom filters can have false positive matches, so the `ngrambf_v1`, `tokenbf_v1`, and `bloom_filter` indexes can’t be used for optimizing queries where the result of a function is expected to be false, for example:
 
 {% endnote %}
 

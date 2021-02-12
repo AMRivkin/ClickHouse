@@ -292,7 +292,7 @@ $ clickhouse-client --query "select count(*) from datasets.trips_mergetree"
 
 {% note info "Info" %}
 
-    If you will run the queries described below, you have to use the full table name, `datasets.trips_mergetree`.
+If you will run the queries described below, you have to use the full table name, `datasets.trips_mergetree`.
 
 {% endnote %}
 

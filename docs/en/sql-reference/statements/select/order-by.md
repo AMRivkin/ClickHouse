@@ -430,7 +430,7 @@ The `WITH TIES` option is used to return any additional rows that tie for the la
 
 {% note info "Note" %}
 
-    According to the standard, the `OFFSET` clause must come before the `FETCH` clause if both are present.
+According to the standard, the `OFFSET` clause must come before the `FETCH` clause if both are present.
 
 {% endnote %}
 	

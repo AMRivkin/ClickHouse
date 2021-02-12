@@ -177,7 +177,7 @@ When the `max_parallel_replicas` option is enabled, query processing is parallel
 
 {% note info "Note" %}
 
-    Since [`remote`](../../../sql-reference/table-functions/remote.md)/`cluster` table functions internally create temporary instance of the same Distributed engine, `_shard_num` is available there too.
+Since [`remote`](../../../sql-reference/table-functions/remote.md)/`cluster` table functions internally create temporary instance of the same Distributed engine, `_shard_num` is available there too.
 
 {% endnote %}
 

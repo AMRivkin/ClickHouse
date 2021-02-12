@@ -154,7 +154,7 @@ This query creates a local backup of a specified partition. If the `PARTITION` c
 
 {% note info "Note" %}
 
-    The entire backup process is performed without stopping the server.
+The entire backup process is performed without stopping the server.
 
 {% endnote %}
 
@@ -167,7 +167,7 @@ At the time of execution, for a data snapshot, the query creates hardlinks to a 
 
 {% note info "Note" %}
 
-    If you use [a set of disks for data storage in a table](../../../engines/table-engines/mergetree-family/mergetree.md#table_engine-mergetree-multiple-volumes), the `shadow/N` directory appears on every disk, storing data parts that matched by the `PARTITION` expression.
+If you use [a set of disks for data storage in a table](../../../engines/table-engines/mergetree-family/mergetree.md#table_engine-mergetree-multiple-volumes), the `shadow/N` directory appears on every disk, storing data parts that matched by the `PARTITION` expression.
 
 {% endnote %}
 

@@ -15,7 +15,7 @@ By default `clickhouse-local` does not have access to data on the same host, but
 
 {% note warning "Warning" %}
 
-    It is not recommended to load production server configuration into `clickhouse-local` because data can be damaged in case of human error.
+It is not recommended to load production server configuration into `clickhouse-local` because data can be damaged in case of human error.
 
 {% endnote %}
 

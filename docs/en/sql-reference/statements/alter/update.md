@@ -13,7 +13,7 @@ Manipulates data matching the specified filtering expression. Implemented as a [
 
 {% note info "Note" %}
 
-    The `ALTER TABLE` prefix makes this syntax different from most other systems supporting SQL. It is intended to signify that unlike similar queries in OLTP databases this is a heavy operation not designed for frequent use.
+The `ALTER TABLE` prefix makes this syntax different from most other systems supporting SQL. It is intended to signify that unlike similar queries in OLTP databases this is a heavy operation not designed for frequent use.
 
 {% endnote %}
 

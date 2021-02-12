@@ -9,7 +9,7 @@ A settings profile is a collection of settings grouped under the same name.
 
 {% note info "Information" %}
 
-    ClickHouse also supports [SQL-driven workflow](../../operations/access-rights.md#access-control) for managing settings profiles. We recommend using it.
+ClickHouse also supports [SQL-driven workflow](../../operations/access-rights.md#access-control) for managing settings profiles. We recommend using it.
 
 {% endnote %}
 

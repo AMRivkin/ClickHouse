@@ -7,7 +7,7 @@ toc_title: For Replacing in Strings
 
 {% note info "Note" %}
 
-    Functions for [searching](../../sql-reference/functions/string-search-functions.md) and [other manipulations with strings](../../sql-reference/functions/string-functions.md) are described separately.
+Functions for [searching](../../sql-reference/functions/string-search-functions.md) and [other manipulations with strings](../../sql-reference/functions/string-functions.md) are described separately.
 
 {% endnote %}
 

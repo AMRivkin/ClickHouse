@@ -19,7 +19,7 @@ To store `Nullable` type values in a table column, ClickHouse uses a separate fi
 
 {% note info "Note" %}
 
-    Using `Nullable` almost always negatively affects performance, keep this in mind when designing your databases.
+Using `Nullable` almost always negatively affects performance, keep this in mind when designing your databases.
 
 {% endnote %}
 

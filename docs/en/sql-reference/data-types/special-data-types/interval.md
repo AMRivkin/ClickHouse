@@ -9,7 +9,7 @@ The family of data types representing time and date intervals. The resulting typ
 
 {% note warning "Warning" %}
 
-    `Interval` data type values can’t be stored in tables.
+`Interval` data type values can’t be stored in tables.
 
 {% endnote %}
 

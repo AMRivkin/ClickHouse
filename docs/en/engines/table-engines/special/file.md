@@ -32,7 +32,7 @@ You may manually create this subfolder and file in server filesystem and then [A
 
 {% note warning "Warning" %}
 
-    Be careful with this functionality, because ClickHouse does not keep track of external changes to such files. The result of simultaneous writes via ClickHouse and outside of ClickHouse is undefined.
+Be careful with this functionality, because ClickHouse does not keep track of external changes to such files. The result of simultaneous writes via ClickHouse and outside of ClickHouse is undefined.
 
 {% endnote %}
 

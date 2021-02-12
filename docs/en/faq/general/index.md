@@ -20,7 +20,7 @@ Questions:
 
 {% note info "Don’t see what you were looking for?" %}
 
-    Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
 
 {% endnote %}
 
