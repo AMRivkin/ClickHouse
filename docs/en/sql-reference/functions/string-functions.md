@@ -5,8 +5,9 @@ toc_title: Strings
 
 # Functions for Working with Strings {#functions-for-working-with-strings}
 
-!!! note "Note"
+{% note info "Note" %}
     Functions for [searching](../../sql-reference/functions/string-search-functions.md) and [replacing](../../sql-reference/functions/string-replace-functions.md) in strings are described separately.
+{% endnote %}
 
 ## empty {#empty}
 

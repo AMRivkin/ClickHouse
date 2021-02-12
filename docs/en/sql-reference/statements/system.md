@@ -155,8 +155,9 @@ Provides possibility to stop background merges for tables in the MergeTree famil
 SYSTEM STOP MERGES [ON VOLUME <volume_name> | [db.]merge_tree_family_table_name]
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     `DETACH / ATTACH` table will start background merges for the table even in case when merges have been stopped for all MergeTree tables before.
+{% endnote %}
 
 ### START MERGES {#query_language-system-start-merges}
 

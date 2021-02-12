@@ -13,8 +13,9 @@ Accepts data that represent tables and queries them using [ClickHouse SQL dialec
 
 By default `clickhouse-local` does not have access to data on the same host, but it supports loading server configuration using `--config-file` argument.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     It is not recommended to load production server configuration into `clickhouse-local` because data can be damaged in case of human error.
+{% endnote %}
 
 For temporary data, a unique temporary data directory is created by default. If you want to override this behavior, the data directory can be explicitly specified with the `-- --path` option.
 

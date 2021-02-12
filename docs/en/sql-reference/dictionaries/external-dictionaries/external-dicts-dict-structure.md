@@ -56,8 +56,9 @@ ClickHouse supports the following types of keys:
 
 An xml structure can contain either `<id>` or `<key>`. DDL-query must contain single `PRIMARY KEY`.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     You must not describe key as an attribute.
+{% endnote %}
 
 ### Numeric Key {#ext_dict-numeric-key}
 
@@ -92,8 +93,9 @@ PRIMARY KEY Id
 
 The key can be a `tuple` from any types of fields. The [layout](../../../sql-reference/dictionaries/external-dictionaries/external-dicts-dict-layout.md) in this case must be `complex_key_hashed` or `complex_key_cache`.
 
-!!! tip "Tip"
+{% note tip "Tip" %}
     A composite key can consist of a single element. This makes it possible to use a string as the key, for instance.
+{% endnote %}
 
 The key structure is set in the element `<key>`. Key fields are specified in the same format as the dictionary [attributes](../../../sql-reference/dictionaries/external-dictionaries/external-dicts-dict-structure.md). Example:
 

@@ -22,8 +22,9 @@ For more information about training CatBoost models, see [Training and applying 
 
 If you don’t have the [Docker](https://docs.docker.com/install/) yet, install it.
 
-!!! note "Note"
+{% note info "Note" %}
     [Docker](https://www.docker.com) is a software platform that allows you to create containers that isolate a CatBoost and ClickHouse installation from the rest of the system.
+{% endnote %}
 
 Before applying a CatBoost model:
 
@@ -59,8 +60,9 @@ To create a ClickHouse table for the training sample:
 $ clickhouse client
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     The ClickHouse server is already running inside the Docker container.
+{% endnote %}
 
 **2.** Create the table using the command:
 
@@ -119,8 +121,9 @@ FROM amazon_train
 
 ## 3. Integrate CatBoost into ClickHouse {#integrate-catboost-into-clickhouse}
 
-!!! note "Note"
+{% note info "Note" %}
     **Optional step.** The Docker image contains everything you need to run CatBoost and ClickHouse.
+{% endnote %}
 
 To integrate CatBoost into ClickHouse:
 
@@ -182,8 +185,9 @@ FROM amazon_train
 LIMIT 10
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     Function [modelEvaluate](../sql-reference/functions/other-functions.md#function-modelevaluate) returns tuple with per-class raw predictions for multiclass models.
+{% endnote %}
 
 Let’s predict the probability:
 
@@ -205,8 +209,9 @@ FROM amazon_train
 LIMIT 10
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     More info about [exp()](../sql-reference/functions/math-functions.md) function.
+{% endnote %}
 
 Let’s calculate LogLoss on the sample:
 
@@ -231,7 +236,8 @@ FROM
 )
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     More info about [avg()](../sql-reference/aggregate-functions/reference/avg.md#agg_function-avg) and [log()](../sql-reference/functions/math-functions.md) functions.
+{% endnote %}
 
 [Original article](https://clickhouse.tech/docs/en/guides/apply_catboost_model/) <!--hide-->

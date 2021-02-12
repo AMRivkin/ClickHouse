@@ -35,8 +35,9 @@ In this example, we set partitioning by the event types that occurred during the
 
 When inserting new data to a table, this data is stored as a separate part (chunk) sorted by the primary key. In 10-15 minutes after inserting, the parts of the same partition are merged into the entire part.
 
-!!! info "Info"
+{% note info "Info" %}
     A merge only works for data parts that have the same value for the partitioning expression. This means **you shouldn’t make overly granular partitions** (more than about a thousand partitions). Otherwise, the `SELECT` query performs poorly because of an unreasonably large number of files in the file system and open file descriptors.
+{% endnote %}
 
 Use the [system.parts](../../../operations/system-tables/parts.md#system_tables-parts) table to view the table parts and partitions. For example, let’s assume that we have a `visits` table with partitioning by month. Let’s perform the `SELECT` query for the `system.parts` table:
 
@@ -72,8 +73,9 @@ Let’s break down the name of the first part: `201901_1_3_1`:
 -   `3` is the maximum number of the data block.
 -   `1` is the chunk level (the depth of the merge tree it is formed from).
 
-!!! info "Info"
+{% note info "Info" %}
     The parts of old-type tables have the name: `20190117_20190123_2_2_0` (minimum date - maximum date - minimum block number - maximum block number - level).
+{% endnote %}
 
 The `active` column shows the status of the part. `1` is active; `0` is inactive. The inactive parts are, for example, source parts remaining after merging to a larger part. The corrupted data parts are also indicated as inactive.
 

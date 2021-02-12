@@ -26,8 +26,9 @@ There are additional endpoints with specific ClickHouse releases to experiment w
 -   20.3 LTS: `play-api-v20-3.clickhouse.tech`
 -   19.14 LTS: `play-api-v19-14.clickhouse.tech`
 
-!!! note "Note"
+{% note info "Note" %}
     All these endpoints require a secure TLS connection.
+{% endnote %}
 
 ## Limitations {#limitations}
 
@@ -62,5 +63,6 @@ clickhouse client --secure -h play-api.clickhouse.tech --port 9440 -u playground
 ClickHouse Playground web interface makes requests via ClickHouse [HTTP API](../interfaces/http.md).
 The Playground backend is just a ClickHouse cluster without any additional server-side application. As mentioned above, ClickHouse HTTPS and TCP/TLS endpoints are also publicly available as a part of the Playground, both are proxied through [Cloudflare Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/) to add an extra layer of protection and improved global connectivity.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     Exposing the ClickHouse server to the public internet in any other situation is **strongly not recommended**. Make sure it listens only on a private network and is covered by a properly configured firewall.
+{% endnote %}

@@ -49,8 +49,9 @@ $ cd ..
 
 If you intend to run `clickhouse-server`, make sure to increase the system’s maxfiles variable.
 
-!!! info "Note"
+{% note info "Note" %}
     You’ll need to use sudo.
+{% endnote %}
 
 To do so, create the `/Library/LaunchDaemons/limit.maxfiles.plist` file with the following content:
 

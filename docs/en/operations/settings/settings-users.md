@@ -7,8 +7,9 @@ toc_title: User Settings
 
 The `users` section of the `user.xml` configuration file contains user settings.
 
-!!! note "Information"
+{% note info "Information" %}
     ClickHouse also supports [SQL-driven workflow](../../operations/access-rights.md#access-control) for managing users. We recommend using it.
+{% endnote %}
 
 Structure of the `users` section:
 
@@ -116,8 +117,9 @@ To open access for user from any network, specify:
 <ip>::/0</ip>
 ```
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     It’s insecure to open access from any network unless you have a firewall properly configured or the server is not directly connected to Internet.
+{% endnote %}
 
 To open access only from localhost, specify:
 

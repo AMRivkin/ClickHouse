@@ -114,8 +114,9 @@ Union
           ReadFromStorage (SystemNumbers)
 ```
 
-!!! note "Note"
+{% note info "Note" %}
   Step and query cost estimation is not supported.
+{% endnote %}
 
 ### EXPLAIN PIPELINE {#explain-pipeline}
 

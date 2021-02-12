@@ -18,5 +18,6 @@ The first two commands are lightweight in a sense that they only change metadata
 
 Also, they are replicated, syncing indices metadata via ZooKeeper.
 
-!!! note "Note"
+{% note info "Note" %}
     Index manipulation is supported only for tables with [`*MergeTree`](../../../../engines/table-engines/mergetree-family/mergetree.md) engine (including [replicated](../../../../engines/table-engines/mergetree-family/replication.md) variants).
+{% endnote %}

@@ -15,8 +15,9 @@ $ make
 
 Generating data:
 
-!!! warning "Attention"
+{% note warning "Attention" %}
     With `-s 100` dbgen generates 600 million rows (67 GB), while while `-s 1000` it generates 6 billion rows (which takes a lot of time)
+{% endnote %}
 
 ``` bash
 $ ./dbgen -s 1000 -T c

@@ -152,8 +152,9 @@ ALTER TABLE table_name FREEZE [PARTITION partition_expr]
 
 This query creates a local backup of a specified partition. If the `PARTITION` clause is omitted, the query creates the backup of all partitions at once.
 
-!!! note "Note"
+{% note info "Note" %}
     The entire backup process is performed without stopping the server.
+{% endnote %}
 
 Note that for old-styled tables you can specify the prefix of the partition name (for example, ‘2019’) - then the query creates the backup for all the corresponding partitions. Read about setting the partition expression in a section [How to specify the partition expression](#alter-how-to-specify-part-expr).
 
@@ -162,8 +163,9 @@ At the time of execution, for a data snapshot, the query creates hardlinks to a 
 -   `/var/lib/clickhouse/` is the working ClickHouse directory specified in the config.
 -   `N` is the incremental number of the backup.
 
-!!! note "Note"
+{% note info "Note" %}
     If you use [a set of disks for data storage in a table](../../../engines/table-engines/mergetree-family/mergetree.md#table_engine-mergetree-multiple-volumes), the `shadow/N` directory appears on every disk, storing data parts that matched by the `PARTITION` expression.
+{% endnote %}
 
 The same structure of directories is created inside the backup as inside `/var/lib/clickhouse/`. The query performs ‘chmod’ for all files, forbidding writing into them.
 

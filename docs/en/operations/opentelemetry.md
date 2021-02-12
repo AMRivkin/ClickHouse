@@ -9,8 +9,9 @@ toc_title: OpenTelemetry Support
 traces and metrics from distributed application. ClickHouse has some support
 for OpenTelemetry.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
 This is an experimental feature that will change in backwards-incompatible ways in the future releases.
+{% endnote %}
 
 
 ## Supplying Trace Context to ClickHouse

@@ -87,8 +87,9 @@ Examples:
 
 <summary>Deprecated Method for Creating a Table</summary>
 
-!!! attention "Attention"
+{% note alert "Attention" %}
     Do not use this method in new projects. If possible, switch old projects to the method described above.
+{% endnote %}
 
 ``` sql
 Kafka(kafka_broker_list, kafka_topic_list, kafka_group_name, kafka_format

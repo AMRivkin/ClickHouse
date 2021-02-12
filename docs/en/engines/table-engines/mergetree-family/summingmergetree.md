@@ -41,8 +41,9 @@ When creating a `SummingMergeTree` table the same [clauses](../../../engines/tab
 
 <summary>Deprecated Method for Creating a Table</summary>
 
-!!! attention "Attention"
+{% note alert "Attention" %}
     Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+{% endnote %}
 
 ``` sql
 CREATE TABLE [IF NOT EXISTS] [db.]table_name [ON CLUSTER cluster]

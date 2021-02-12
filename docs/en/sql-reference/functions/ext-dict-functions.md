@@ -3,8 +3,9 @@ toc_priority: 58
 toc_title: External Dictionaries
 ---
 
-!!! attention "Attention"
+{% note alert "Attention" %}
     `dict_name` parameter must be fully qualified for dictionaries created with DDL queries. Eg. `<database>.<dict_name>`.
+{% endnote %}
 
 # Functions for Working with External Dictionaries {#ext_dict_functions}
 

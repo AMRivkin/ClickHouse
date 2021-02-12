@@ -20,5 +20,6 @@ When `OPTIMIZE` is used with the [ReplicatedMergeTree](../../engines/table-engin
 -   If you specify `FINAL`, optimization is performed even when all the data is already in one part.
 -   If you specify `DEDUPLICATE`, then completely identical rows will be deduplicated (all columns are compared), it makes sense only for the MergeTree engine.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     `OPTIMIZE` can’t fix the “Too many parts” error.
+{% endnote %}

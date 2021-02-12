@@ -28,8 +28,9 @@ Columns:
     -   `1` if the mutation is completed,
     -   `0` if the mutation is still in process. 
 
-!!! info "Note"
+{% note info "Note" %}
     Even if `parts_to_do = 0` it is possible that a mutation of a replicated table is not completed yet because of a long-running `INSERT` query, that will create a new data part needed to be mutated.
+{% endnote %}
 
 If there were problems with mutating some data parts, the following columns contain additional information:
 

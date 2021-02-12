@@ -27,8 +27,9 @@ Main features:
 
     If necessary, you can set the data sampling method in the table.
 
-!!! info "Info"
+{% note info "Info" %}
     The [Merge](../../../engines/table-engines/special/merge.md#merge) engine does not belong to the `*MergeTree` family.
+{% endnote %}
 
 ## Creating a Table {#table_engine-mergetree-creating-a-table}
 
@@ -118,8 +119,9 @@ The `index_granularity` setting can be omitted because 8192 is the default value
 
 <summary>Deprecated Method for Creating a Table</summary>
 
-!!! attention "Attention"
+{% note alert "Attention" %}
     Do not use this method in new projects. If possible, switch old projects to the method described above.
+{% endnote %}
 
 ``` sql
 CREATE TABLE [IF NOT EXISTS] [db.]table_name [ON CLUSTER cluster]
@@ -367,8 +369,9 @@ The `set` index can be used with all functions. Function subsets for other index
 
 Functions with a constant argument that is less than ngram size can’t be used by `ngrambf_v1` for query optimization.
 
-!!! note "Note"
+{% note info "Note" %}
     Bloom filters can have false positive matches, so the `ngrambf_v1`, `tokenbf_v1`, and `bloom_filter` indexes can’t be used for optimizing queries where the result of a function is expected to be false, for example:
+{% endnote %}
 
 -   Can be optimized:
     -   `s LIKE '%test%'`

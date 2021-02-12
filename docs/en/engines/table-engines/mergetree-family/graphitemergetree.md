@@ -56,8 +56,9 @@ When creating a `GraphiteMergeTree` table, the same [clauses](../../../engines/t
 
 <summary>Deprecated Method for Creating a Table</summary>
 
-!!! attention "Attention"
+{% note alert "Attention" %}
     Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+{% endnote %}
 
 ``` sql
 CREATE TABLE [IF NOT EXISTS] [db.]table_name [ON CLUSTER cluster]
@@ -118,8 +119,9 @@ default
     ...
 ```
 
-!!! warning "Attention"
+{% note warning "Attention" %}
     Patterns must be strictly ordered:
+{% endnote %}
 
       1. Patterns without `function` or `retention`.
       1. Patterns with both `function` and `retention`.

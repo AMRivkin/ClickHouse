@@ -10,8 +10,9 @@ toc_title: GROUP BY
 -   All the expressions in the [SELECT](../../../sql-reference/statements/select/index.md), [HAVING](../../../sql-reference/statements/select/having.md), and [ORDER BY](../../../sql-reference/statements/select/order-by.md) clauses **must** be calculated based on key expressions **or** on [aggregate functions](../../../sql-reference/aggregate-functions/index.md) over non-key expressions (including plain columns). In other words, each column selected from the table must be used either in a key expression or inside an aggregate function, but not both.
 -   Result of aggregating `SELECT` query will contain as many rows as there were unique values of “grouping key” in source table. Usually this signficantly reduces the row count, often by orders of magnitude, but not necessarily: row count stays the same if all “grouping key” values were distinct.
 
-!!! note "Note"
+{% note info "Note" %}
     There’s an additional way to run aggregation over a table. If a query contains table columns only inside aggregate functions, the `GROUP BY clause` can be omitted, and aggregation by an empty set of keys is assumed. Such queries always return exactly one row.
+{% endnote %}
 
 ## NULL Processing {#null-processing}
 
@@ -53,8 +54,9 @@ The subtotals are calculated in the reverse order: at first subtotals are calcul
 
 In the subtotals rows the values of already "grouped" key expressions are set to `0` or empty line.
 
-!!! note "Note"
+{% note info "Note" %}
     Mind that [HAVING](../../../sql-reference/statements/select/having.md) clause can affect the subtotals results.
+{% endnote %}
 
 **Example**    
 
@@ -112,8 +114,9 @@ As `GROUP BY` section has three key expressions, the result contains four tables
 
 In the subtotals rows the values of all "grouped" key expressions are set to `0` or empty line.
 
-!!! note "Note"
+{% note info "Note" %}
     Mind that [HAVING](../../../sql-reference/statements/select/having.md) clause can affect the subtotals results.
+{% endnote %}
 
 **Example**      
 

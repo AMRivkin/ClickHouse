@@ -161,8 +161,9 @@ $ sudo service clickhouse-server restart
 $ clickhouse-client --query "select count(*) from datasets.ontime"
 ```
 
-!!! info "Info"
+{% note info "Info" %}
     If you will run the queries described below, you have to use the full table name, `datasets.ontime`.
+{% endnote %}
 
 ## Queries {#queries}
 

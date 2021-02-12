@@ -2,8 +2,9 @@
 
 Contains information about executed queries, for example, start time, duration of processing, error messages.
 
-!!! note "Note"
+{% note info "Note" %}
     This table doesn’t contain the ingested data for `INSERT` queries.
+{% endnote %}
 
 You can change settings of queries logging in the [query_log](../../operations/server-configuration-parameters/settings.md#server_configuration_parameters-query-log) section of the server configuration.
 

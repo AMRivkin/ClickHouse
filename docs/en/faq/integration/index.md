@@ -13,7 +13,8 @@ Questions:
 -   [How to import JSON into ClickHouse?](../../faq/integration/json-import.md)
 -   [What if I have a problem with encodings when connecting to Oracle via ODBC?](../../faq/integration/oracle-odbc.md)
 
-!!! info "Don’t see what you were looking for?"
+{% note info "Don’t see what you were looking for?" %}
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+{% endnote %}
 
 {## [Original article](https://clickhouse.tech/docs/en/faq/integration/) ##}

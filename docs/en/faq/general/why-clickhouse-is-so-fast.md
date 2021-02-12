@@ -49,8 +49,7 @@ Algorithms that they rely on characteristics of data they are working with can o
 
 Last but not least, the ClickHouse team always monitors the Internet on people claiming that they came up with the best implementation, algorithm, or data structure to do something and tries it out. Those claims mostly appear to be false, but from time to time you’ll indeed find a gem.
 
-!!! info "Tips for building your own high-performance software"
-
+{% note info "Tips for building your own high-performance software" %}
 
     -   Keep in mind low-level details when designing your system.
     -   Design based on hardware capabilities.
@@ -61,3 +60,5 @@ Last but not least, the ClickHouse team always monitors the Internet on people c
     -   Benchmark on real datasets.
     -   Test for performance regressions in CI.
     -   Measure and observe everything.
+
+{% endnote %}

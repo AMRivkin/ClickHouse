@@ -12,7 +12,8 @@ Questions:
 -   [Can I use ClickHouse as a time-series database?](../../faq/use-cases/time-series.md)
 -   [Can I use ClickHouse as a key-value storage?](../../faq/use-cases/key-value.md)
 
-!!! info "Don’t see what you were looking for?"
+{% note info "Don’t see what you were looking for?" %}
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+{% endnote %}
 
 {## [Original article](https://clickhouse.tech/docs/en/faq/use-cases/) ##}

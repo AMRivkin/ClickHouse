@@ -626,8 +626,9 @@ SELECT arraySort((x, y) -> -y, [0, 1, 2], [1, 2, 3]) as res;
 └─────────┘
 ```
 
-!!! note "Note"
+{% note info "Note" %}
     To improve sorting efficiency, the [Schwartzian transform](https://en.wikipedia.org/wiki/Schwartzian_transform) is used.
+{% endnote %}
 
 ## arrayReverseSort(\[func,\] arr, …) {#array_functions-reverse-sort}
 

@@ -31,13 +31,15 @@ Also it accept the following settings:
 
 - `fsync_directories` - do the `fsync` for directories. Guarantees that the OS refreshed directory metadata after operations related to asynchronous inserts on Distributed table (after insert, after sending the data to shard, etc).
 
-!!! note "Note"
+{% note info "Note" %}
 
     **Durability settings** (`fsync_...`):
 
     - Affect only asynchronous INSERTs (i.e. `insert_distributed_sync=false`) when data first stored on the initiator node disk and later asynchronously send to shards.
     - May significantly decrease the inserts' performance
     - Affect writing the data stored inside Distributed table folder into the **node which accepted your insert**. If you need to have guarantees of writing data to underlying MergeTree tables - see durability settings (`...fsync...`) in `system.merge_tree_settings`
+
+{% endnote %}
 
 Example:
 
@@ -171,8 +173,9 @@ When the `max_parallel_replicas` option is enabled, query processing is parallel
 
 -   `_shard_num` — Contains the `shard_num` (from `system.clusters`). Type: [UInt32](../../../sql-reference/data-types/int-uint.md).
 
-!!! note "Note"
+{% note info "Note" %}
     Since [`remote`](../../../sql-reference/table-functions/remote.md)/`cluster` table functions internally create temporary instance of the same Distributed engine, `_shard_num` is available there too.
+{% endnote %}
 
 **See Also**
 

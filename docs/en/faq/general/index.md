@@ -18,7 +18,8 @@ Questions:
 -   [What is a columnar database?](../../faq/general/columnar-database.md)
 -   [Why not use something like MapReduce?](../../faq/general/mapreduce.md)
 
-!!! info "Don’t see what you were looking for?"
+{% note info "Don’t see what you were looking for?" %}
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+{% endnote %}
 
 {## [Original article](https://clickhouse.tech/docs/en/faq/general/) ##}

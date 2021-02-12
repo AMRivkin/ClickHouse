@@ -153,8 +153,9 @@ Types of intervals:
 
 You can also use a string literal when setting the `INTERVAL` value. For example, `INTERVAL 1 HOUR` is identical to the `INTERVAL '1 hour'` or `INTERVAL '1' hour`.
 
-!!! warning "Warning"
+{% note warning "Warning" %}
     Intervals with different types can’t be combined. You can’t use expressions like `INTERVAL 4 DAY 1 HOUR`. Specify intervals in units that are smaller or equal to the smallest unit of the interval, for example, `INTERVAL 25 HOUR`. You can use consecutive operations, like in the example below.
+{% endnote %}
 
 Examples:
 

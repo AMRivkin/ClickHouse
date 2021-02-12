@@ -10,5 +10,6 @@ If there is a `WHERE` clause, it must contain an expression with the `UInt8` typ
 
 `WHERE` expression is evaluated on the ability to use indexes and partition pruning, if the underlying table engine supports that.
 
-!!! note "Note"
+{% note info "Note" %}
     There’s a filtering optimization called [prewhere](../../../sql-reference/statements/select/prewhere.md).
+{% endnote %}
