@@ -422,4 +422,4 @@ errors_count:            0
 estimated_recovery_time: 0
 ```
 
-[Original article](https://clickhouse.tech/docs/en/query_language/show/) <!--hide-->
+

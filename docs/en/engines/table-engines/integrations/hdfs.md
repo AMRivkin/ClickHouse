@@ -208,4 +208,4 @@ If hadoop\_kerberos\_keytab, hadoop\_kerberos\_principal or hadoop\_kerberos\_ki
 
 -   [Virtual columns](../../../engines/table-engines/index.md#table_engines-virtual_columns)
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/hdfs/) <!--hide-->
+

@@ -836,4 +836,4 @@ function(
       size_t limit)
 ```
 
-[Original article](https://clickhouse.tech/docs/en/development/style/) <!--hide-->
+

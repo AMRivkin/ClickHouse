@@ -111,4 +111,4 @@ The `Join`-engine allows use [join_use_nulls](../../../operations/settings/setti
 
 If the server restarts incorrectly, the data block on the disk might get lost or damaged. In this case, you may need to manually delete the file with damaged data.
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/join/) <!--hide-->
+

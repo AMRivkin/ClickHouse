@@ -89,4 +89,4 @@ Reboot.
 
 To check if it’s working, you can use `ulimit -n` command.
 
-[Original article](https://clickhouse.tech/docs/en/development/build_osx/) <!--hide-->
+

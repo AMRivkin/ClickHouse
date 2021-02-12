@@ -616,4 +616,4 @@ $ curl -vv -H 'XXX:xxx' 'http://localhost:8123/get_relative_path_static_handler'
 * Connection #0 to host localhost left intact
 ```
 
-[Original article](https://clickhouse.tech/docs/en/interfaces/http_interface/) <!--hide-->
+

@@ -78,4 +78,4 @@ Result:
 
 Queries that are parts of `UNION/UNION ALL/UNION DISTINCT` can be run simultaneously, and their results can be mixed together.
 
-[Original article](https://clickhouse.tech/docs/en/sql-reference/statements/select/union/) <!-- hide -->
+

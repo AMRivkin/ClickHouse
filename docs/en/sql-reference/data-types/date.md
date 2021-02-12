@@ -44,4 +44,4 @@ SELECT * FROM dt;
 -   [`DateTime` data type](../../sql-reference/data-types/datetime.md)
 
 
-[Original article](https://clickhouse.tech/docs/en/data_types/date/) <!--hide-->
+

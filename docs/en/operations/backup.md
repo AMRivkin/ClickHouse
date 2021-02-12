@@ -38,4 +38,4 @@ For more information about queries related to partition manipulations, see the [
 
 A third-party tool is available to automate this approach: [clickhouse-backup](https://github.com/AlexAkulov/clickhouse-backup).
 
-[Original article](https://clickhouse.tech/docs/en/operations/backup/) <!--hide-->
+

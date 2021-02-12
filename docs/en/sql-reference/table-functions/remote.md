@@ -82,4 +82,4 @@ If the password is not specified, an empty password is used.
 
 `remoteSecure` - same as `remote` but with secured connection. Default port — [tcp_port_secure](../../operations/server-configuration-parameters/settings.md#server_configuration_parameters-tcp_port_secure) from config or 9440.
 
-[Original article](https://clickhouse.tech/docs/en/query_language/table_functions/remote/) <!--hide-->
+

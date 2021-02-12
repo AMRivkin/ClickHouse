@@ -111,4 +111,4 @@ Result:
 
 -   [Tuple](../../sql-reference/data-types/tuple.md)
 
-[Original article](https://clickhouse.tech/docs/en/sql-reference/functions/tuple-functions/) <!--hide-->
+

@@ -11,4 +11,4 @@ Log differs from [TinyLog](../../../engines/table-engines/log-family/tinylog.md)
 For concurrent data access, the read operations can be performed simultaneously, while write operations block reads and each other.
 The Log engine does not support indexes. Similarly, if writing to a table failed, the table is broken, and reading from it returns an error. The Log engine is appropriate for temporary data, write-once tables, and for testing or demonstration purposes.
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/log/) <!--hide-->
+

@@ -1478,4 +1478,4 @@ Result:
 f9725a22f9191e064120d718e26862a9  -
 ```
 
-[Original article](https://clickhouse.tech/docs/en/interfaces/formats/) <!--hide-->
+

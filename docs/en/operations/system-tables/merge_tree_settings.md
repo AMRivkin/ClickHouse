@@ -51,4 +51,4 @@ type:        SettingUInt64
 4 rows in set. Elapsed: 0.001 sec. 
 ```
 
-[Original article](https://clickhouse.tech/docs/en/operations/system_tables/merge_tree_settings) <!--hide-->
+

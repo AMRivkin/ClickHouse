@@ -36,4 +36,4 @@ CREATE TABLE t
 ) ENGINE = ...
 ```
 
-[Original article](https://clickhouse.tech/docs/en/data_types/simpleaggregatefunction/) <!--hide-->
+

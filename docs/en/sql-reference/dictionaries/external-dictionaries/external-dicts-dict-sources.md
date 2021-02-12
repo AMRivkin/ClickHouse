@@ -674,4 +674,4 @@ Default value is 1 (the first key column is a partition key and other key column
 - `where` – Optional selection criteria.
 - `max_threads` – The maximum number of threads to use for loading data from multiple partitions in compose key dictionaries.
 
-[Original article](https://clickhouse.tech/docs/en/query_language/dicts/external_dicts_dict_sources/) <!--hide-->
+

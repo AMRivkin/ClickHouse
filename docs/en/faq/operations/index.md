@@ -16,4 +16,4 @@ Questions:
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
 {% endnote %}
 
-{## [Original article](https://clickhouse.tech/docs/en/faq/production/) ##}
+

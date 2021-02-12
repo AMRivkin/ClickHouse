@@ -103,4 +103,4 @@ FROM numbers(3)
 │ aeca2A │
 └───────────────────────────────────────┘
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/random_functions/) <!--hide-->
+

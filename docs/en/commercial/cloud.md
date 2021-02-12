@@ -40,4 +40,4 @@ toc_title: Cloud
 -   High security with isolated per cluster VPCs
 -   On-demand pricing with no upfront costs or long-term commitments
 
-{## [Original article](https://clickhouse.tech/docs/en/commercial/cloud/) ##}
+

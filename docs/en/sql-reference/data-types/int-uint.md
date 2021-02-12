@@ -35,4 +35,4 @@ Aliases:
 
 `UInt128` is not supported yet.
 
-[Original article](https://clickhouse.tech/docs/en/data_types/int_uint/) <!--hide-->
+

@@ -21,4 +21,4 @@ Additional cache types:
 Indirectly used:
 - OS page cache
 
-[Original article](https://clickhouse.tech/docs/en/operations/caches/) <!--hide-->
+

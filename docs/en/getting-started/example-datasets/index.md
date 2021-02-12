@@ -21,4 +21,4 @@ The list of documented datasets:
 -   [AMPLab Big Data Benchmark](../../getting-started/example-datasets/amplab-benchmark.md)
 -   [Brown University Benchmark](../../getting-started/example-datasets/brown-benchmark.md)
 
-[Original article](https://clickhouse.tech/docs/en/getting_started/example_datasets) <!--hide-->
+

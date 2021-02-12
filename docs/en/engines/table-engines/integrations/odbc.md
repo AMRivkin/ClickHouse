@@ -127,4 +127,4 @@ SELECT * FROM odbc_t
 -   [ODBC external dictionaries](../../../sql-reference/dictionaries/external-dictionaries/external-dicts-dict-sources.md#dicts-external_dicts_dict_sources-odbc)
 -   [ODBC table function](../../../sql-reference/table-functions/odbc.md)
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/odbc/) <!--hide-->
+

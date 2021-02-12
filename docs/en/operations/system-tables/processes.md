@@ -61,4 +61,4 @@ Settings.Values:      ['0','in_order','1','10000000000']
 1 rows in set. Elapsed: 0.002 sec. 
 ```
 
-[Original article](https://clickhouse.tech/docs/en/operations/system_tables/processes) <!--hide-->
+

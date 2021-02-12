@@ -287,4 +287,4 @@ If the data in ZooKeeper was lost or damaged, you can save data by moving it to 
 -   [background_schedule_pool_size](../../../operations/settings/settings.md#background_schedule_pool_size)
 -   [execute_merges_on_single_replica_time_threshold](../../../operations/settings/settings.md#execute-merges-on-single-replica-time-threshold)
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/replication/) <!--hide-->
+

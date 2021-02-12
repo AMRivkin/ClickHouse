@@ -1826,4 +1826,4 @@ Result:
 
 -   [tcp_port](../../operations/server-configuration-parameters/settings.md#server_configuration_parameters-tcp_port)
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/other_functions/) <!--hide-->
+

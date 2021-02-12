@@ -47,4 +47,4 @@ SELECT tuple(1, NULL) AS x, toTypeName(x)
 └──────────┴─────────────────────────────────┘
 ```
 
-[Original article](https://clickhouse.tech/docs/en/data_types/tuple/) <!--hide-->
+

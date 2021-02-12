@@ -69,4 +69,4 @@ All of the parameters excepting `ver` have the same meaning as in `MergeTree`.
 
 </details>
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/replacingmergetree/) <!--hide-->
+

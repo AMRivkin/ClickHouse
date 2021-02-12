@@ -601,4 +601,4 @@ Hello, &quot;world&quot;!
 &apos;foo&apos;
 ```
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/string_functions/) <!--hide-->
+

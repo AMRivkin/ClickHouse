@@ -190,4 +190,4 @@ Normally ClickHouse is statically linked into a single static `clickhouse` binar
 
 Note that in this configuration there is no single `clickhouse` binary, and you have to run `clickhouse-server`, `clickhouse-client` etc.
 
-[Original article](https://clickhouse.tech/docs/en/development/build/) <!--hide-->
+

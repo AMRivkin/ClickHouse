@@ -167,4 +167,4 @@ Features:
 
 [How to configure ClickHouse in Looker.](https://docs.looker.com/setup-and-management/database-config/clickhouse)
 
-[Original article](https://clickhouse.tech/docs/en/interfaces/third-party/gui/) <!--hide-->
+

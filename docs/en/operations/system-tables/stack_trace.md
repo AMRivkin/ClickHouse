@@ -86,4 +86,4 @@ res:       /lib/x86_64-linux-gnu/libc-2.27.so
 -   [arrayFilter](../../sql-reference/functions/array-functions.md#array-filter) — Description and usage example of the `arrayFilter` function.
 
 
-[Original article](https://clickhouse.tech/docs/en/operations/system-tables/stack_trace) <!--hide-->
+

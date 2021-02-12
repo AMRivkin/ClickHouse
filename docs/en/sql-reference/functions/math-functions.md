@@ -413,4 +413,4 @@ Result:
 
 -   [log(x)](../../sql-reference/functions/math-functions.md#logx-lnx)
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/math_functions/) <!--hide-->
+

@@ -243,4 +243,4 @@ SELECT
 └───────────────────────────────────┴──────────────────────────────────┘
 ```
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/ip_address_functions/) <!--hide-->
+

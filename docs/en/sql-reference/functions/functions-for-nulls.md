@@ -307,4 +307,4 @@ SELECT toTypeName(toNullable(10))
 └────────────────────────────┘
 ```
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/functions_for_nulls/) <!--hide-->
+

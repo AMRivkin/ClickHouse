@@ -149,4 +149,4 @@ Example of a config file:
 </config>
 ```
 
-[Original article](https://clickhouse.tech/docs/en/interfaces/cli/) <!--hide-->
+

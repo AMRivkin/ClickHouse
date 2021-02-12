@@ -189,4 +189,4 @@ SELECT 1
 
 To continue experimenting, you can download one of the test data sets or go through [tutorial](https://clickhouse.tech/tutorial.html).
 
-[Original article](https://clickhouse.tech/docs/en/getting_started/install/) <!--hide-->
+

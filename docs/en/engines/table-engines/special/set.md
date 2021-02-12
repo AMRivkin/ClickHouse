@@ -20,4 +20,4 @@ When creating a table, the following settings are applied:
 
 -   [persistent](../../../operations/settings/settings.md#persistent)
 
-[Original article](https://clickhouse.tech/docs/en/operations/table_engines/set/) <!--hide-->
+

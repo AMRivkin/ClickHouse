@@ -125,4 +125,4 @@ FROM dt
 -   [Operators for working with dates and times](../../sql-reference/operators/index.md#operators-datetime)
 -   [The `Date` data type](../../sql-reference/data-types/date.md)
 
-[Original article](https://clickhouse.tech/docs/en/data_types/datetime/) <!--hide-->
+

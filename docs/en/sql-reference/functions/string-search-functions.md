@@ -782,4 +782,4 @@ Result:
 └───────────────────────────────┘
 ```
 
-[Original article](https://clickhouse.tech/docs/en/query_language/functions/string_search_functions/) <!--hide-->
+

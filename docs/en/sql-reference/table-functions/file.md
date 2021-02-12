@@ -117,4 +117,4 @@ FROM file('big_dir/file{0..9}{0..9}{0..9}', 'CSV', 'name String, value UInt32')
 
 -   [Virtual columns](https://clickhouse.tech/docs/en/operations/table_engines/#table_engines-virtual_columns)
 
-[Original article](https://clickhouse.tech/docs/en/query_language/table_functions/file/) <!--hide-->
+

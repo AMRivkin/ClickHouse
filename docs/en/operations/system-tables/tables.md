@@ -104,4 +104,4 @@ total_bytes:                ᴺᵁᴸᴸ
 2 rows in set. Elapsed: 0.004 sec. 
 ```
 
-[Original article](https://clickhouse.tech/docs/en/operations/system_tables/tables) <!--hide-->
+

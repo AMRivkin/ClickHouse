@@ -481,4 +481,4 @@ Result:
 └───┴───┘
 ```
 
-[Original article](https://clickhouse.tech/docs/en/sql-reference/statements/select/order-by/) <!--hide-->
+

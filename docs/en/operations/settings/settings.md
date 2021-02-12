@@ -2579,4 +2579,4 @@ High values for that threshold may lead to replication delays.
 
 It can be useful when merges are CPU bounded not IO bounded (performing heavy data compression, calculating aggregate functions or default expressions that require a large amount of calculations, or just very high number of tiny merges).
 
-[Original article](https://clickhouse.tech/docs/en/operations/settings/settings/) <!-- hide -->
+

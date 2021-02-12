@@ -44,4 +44,4 @@ Restrictions:
 
 -   some data types are sent as strings
 
-[Original article](https://clickhouse.tech/docs/en/interfaces/mysql/) <!--hide-->
+

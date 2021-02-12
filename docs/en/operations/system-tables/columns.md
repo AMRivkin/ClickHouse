@@ -69,4 +69,4 @@ compression_codec:
 2 rows in set. Elapsed: 0.002 sec. 
 ```
 
-[Original article](https://clickhouse.tech/docs/en/operations/system_tables/columns) <!--hide-->
+

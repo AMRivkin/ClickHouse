@@ -35,4 +35,4 @@ You can use table functions in:
 | [hdfs](../../sql-reference/table-functions/hdfs.md)       | Creates a [HDFS](../../engines/table-engines/integrations/hdfs.md)-engine table.                                                       |
 | [s3](../../sql-reference/table-functions/s3.md)           | Creates a [S3](../../engines/table-engines/integrations/s3.md)-engine table.                                                       |
 
-[Original article](https://clickhouse.tech/docs/en/query_language/table_functions/) <!--hide-->
+
