@@ -8,7 +8,9 @@ toc_title: Pseudo-Random Numbers
 All the functions accept zero arguments or one argument. If an argument is passed, it can be any type, and its value is not used for anything. The only purpose of this argument is to prevent common subexpression elimination, so that two different instances of the same function return different columns with different random numbers.
 
 {% note info "Note" %}
+
     Non-cryptographic generators of pseudo-random numbers are used.
+
 {% endnote %}
 
 ## rand, rand32 {#rand}

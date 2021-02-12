@@ -32,7 +32,9 @@ ClickHouse uses [Apache ZooKeeper](https://zookeeper.apache.org) for storing rep
 To use replication, set parameters in the [zookeeper](../../../operations/server-configuration-parameters/settings.md#server-settings_zookeeper) server configuration section.
 
 {% note alert "Attention" %}
+
     Don’t neglect the security setting. ClickHouse supports the `digest` [ACL scheme](https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html#sc_ZooKeeperAccessControl) of the ZooKeeper security subsystem.
+
 {% endnote %}
 
 Example of setting the addresses of the ZooKeeper cluster:

@@ -10,7 +10,9 @@ traces and metrics from distributed application. ClickHouse has some support
 for OpenTelemetry.
 
 {% note warning "Warning" %}
+
 This is an experimental feature that will change in backwards-incompatible ways in the future releases.
+
 {% endnote %}
 
 

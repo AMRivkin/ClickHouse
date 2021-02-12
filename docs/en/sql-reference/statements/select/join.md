@@ -39,7 +39,9 @@ Additional join types available in ClickHouse:
 ## Setting {#join-settings}
 
 {% note info "Note" %}
+
     The default join type can be overriden using [join_default_strictness](../../../operations/settings/settings.md#settings-join_default_strictness) setting.
+
 {% endnote %}
 
     Also the behavior of ClickHouse server for `ANY JOIN` operations depends on the [any_join_distinct_right_table_keys](../../../operations/settings/settings.md#any_join_distinct_right_table_keys) setting.
@@ -92,7 +94,9 @@ For example, consider the following tables:
 `ASOF JOIN` can take the timestamp of a user event from `table_1` and find an event in `table_2` where the timestamp is closest to the timestamp of the event from `table_1` corresponding to the closest match condition. Equal timestamp values are the closest if available. Here, the `user_id` column can be used for joining on equality and the `ev_time` column can be used for joining on the closest match. In our example, `event_1_1` can be joined with `event_2_1` and `event_1_2` can be joined with `event_2_3`, but `event_2_2` can’t be joined.
 
 {% note info "Note" %}
+
     `ASOF` join is **not** supported in the [Join](../../../engines/table-engines/special/join.md) table engine.
+
 {% endnote %}
 
 ## Distributed Join {#global-join}

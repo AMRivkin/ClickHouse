@@ -87,7 +87,9 @@ sequenceMatch(pattern)(timestamp, cond1, cond2, ...)
 ```
 
 {% note warning "Warning" %}
+
     Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
+
 {% endnote %}
 
 **Parameters**
@@ -171,7 +173,9 @@ SELECT sequenceMatch('(?1)(?2)')(time, number = 1, number = 2, number = 4) FROM 
 Counts the number of event chains that matched the pattern. The function searches event chains that don’t overlap. It starts to search for the next chain after the current chain is matched.
 
 {% note warning "Warning" %}
+
     Events that occur at the same second may lay in the sequence in an undefined order affecting the result.
+
 {% endnote %}
 
 ``` sql

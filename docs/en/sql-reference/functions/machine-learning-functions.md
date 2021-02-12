@@ -46,7 +46,9 @@ bayesAB(distribution_name, higher_is_better, variant_names, x, y)
 -   `y` - Numbers of successful tests for the corresponding variants. [Array](../../sql-reference/data-types/array.md)([Float64](../../sql-reference/data-types/float.md)).
 
 {% note info "Note" %}
+
     All three arrays must have the same size. All `x` and `y` values must be non-negative constant numbers. `y` cannot be larger than `x`.
+
 {% endnote %}
 
 **Returned values**

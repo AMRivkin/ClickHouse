@@ -353,7 +353,9 @@ SHOW [CURRENT] QUOTA
 Returns a list of clusters. All available clusters are listed in the [system.clusters](../../operations/system-tables/clusters.md) table.
 
 {% note info "Note" %}
+
     `SHOW CLUSTER name` query displays the contents of system.clusters table for this cluster.
+
 {% endnote %}
 
 ### Syntax {#show-cluster-syntax}

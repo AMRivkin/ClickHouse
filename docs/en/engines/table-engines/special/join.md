@@ -8,7 +8,9 @@ toc_title: Join
 Optional prepared data structure for usage in [JOIN](../../../sql-reference/statements/select/join.md#select-join) operations.
 
 {% note info "Note" %}
+
     This is not an article about the [JOIN clause](../../../sql-reference/statements/select/join.md#select-join) itself.
+
 {% endnote %}
 
 ## Creating a Table {#creating-a-table}

@@ -54,7 +54,9 @@ When creating a `VersionedCollapsingMergeTree` table, the same [clauses](../../.
 <summary>Deprecated Method for Creating a Table</summary>
 
 {% note alert "Attention" %}
+
     Do not use this method in new projects. If possible, switch the old projects to the method described above.
+
 {% endnote %}
 
 ``` sql

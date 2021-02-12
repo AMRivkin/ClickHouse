@@ -30,7 +30,9 @@ CREATE TABLE [IF NOT EXISTS] [db.]table_name [ON CLUSTER cluster]
 For a description of request parameters, see [statement description](../../../sql-reference/statements/create/table.md).
 
 {% note info "Attention" %}
+
     Uniqueness of rows is determined by the `ORDER BY` table section, not `PRIMARY KEY`.
+
 {% endnote %}
 
 **ReplacingMergeTree Parameters**
@@ -51,7 +53,9 @@ When creating a `ReplacingMergeTree` table the same [clauses](../../../engines/t
 <summary>Deprecated Method for Creating a Table</summary>
 
 {% note alert "Attention" %}
+
     Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+
 {% endnote %}
 
 ``` sql

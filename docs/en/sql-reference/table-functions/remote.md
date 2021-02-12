@@ -20,7 +20,9 @@ remoteSecure('addresses_expr', db.table[, 'user'[, 'password'], sharding_key])
 `sharding_key` - We can specify sharding key to support distributing data across nodes. For example: `insert into remote('127.0.0.1:9000,127.0.0.2', db, table, 'default', rand())`.
 
 {% note info "Important" %}
+
     The port is required for an IPv6 address.
+
 {% endnote %}
 
 Examples:

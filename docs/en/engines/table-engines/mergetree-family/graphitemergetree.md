@@ -57,7 +57,9 @@ When creating a `GraphiteMergeTree` table, the same [clauses](../../../engines/t
 <summary>Deprecated Method for Creating a Table</summary>
 
 {% note alert "Attention" %}
+
     Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+
 {% endnote %}
 
 ``` sql
@@ -120,7 +122,9 @@ default
 ```
 
 {% note warning "Attention" %}
+
     Patterns must be strictly ordered:
+
 {% endnote %}
 
       1. Patterns without `function` or `retention`.

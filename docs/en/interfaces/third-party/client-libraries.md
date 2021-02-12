@@ -6,7 +6,9 @@ toc_title: Client Libraries
 # Client Libraries from Third-party Developers {#client-libraries-from-third-party-developers}
 
 {% note warning "Disclaimer" %}
+
     Yandex does **not** maintain the libraries listed below and hasn’t done any extensive testing to ensure their quality.
+
 {% endnote %}
 
 -   Python

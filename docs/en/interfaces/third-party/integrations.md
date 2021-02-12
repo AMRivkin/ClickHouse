@@ -6,7 +6,9 @@ toc_title: Integrations
 # Integration Libraries from Third-party Developers {#integration-libraries-from-third-party-developers}
 
 {% note warning "Disclaimer" %}
+
     Yandex does **not** maintain the tools and libraries listed below and haven’t done any extensive testing to ensure their quality.
+
 {% endnote %}
 
 ## Infrastructure Products {#infrastructure-products}

@@ -14,7 +14,9 @@ Questions:
 -   [What if I have a problem with encodings when connecting to Oracle via ODBC?](../../faq/integration/oracle-odbc.md)
 
 {% note info "Don’t see what you were looking for?" %}
+
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+
 {% endnote %}
 
 

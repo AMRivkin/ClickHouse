@@ -6,7 +6,9 @@ toc_title: Support
 # ClickHouse Commercial Support Service Providers {#clickhouse-commercial-support-service-providers}
 
 {% note info "Info" %}
+
     If you have launched a ClickHouse commercial support service, feel free to [open a pull-request](https://github.com/ClickHouse/ClickHouse/edit/master/docs/en/commercial/support.md) adding it to the following list.
+
 {% endnote %}
 
 ## Altinity {#altinity}

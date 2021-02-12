@@ -13,7 +13,9 @@ Questions:
 -   [Is it possible to delete old records from a ClickHouse table?](../../faq/operations/delete-old-data.md)
 
 {% note info "Don’t see what you were looking for?" %}
+
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+
 {% endnote %}
 
 

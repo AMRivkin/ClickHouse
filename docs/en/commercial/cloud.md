@@ -6,7 +6,9 @@ toc_title: Cloud
 # ClickHouse Cloud Service Providers {#clickhouse-cloud-service-providers}
 
 {% note info "Info" %}
+
     If you have launched a public cloud with managed ClickHouse service, feel free to [open a pull-request](https://github.com/ClickHouse/ClickHouse/edit/master/docs/en/commercial/cloud.md) adding it to the following list.
+
 {% endnote %}
 
 ## Yandex Cloud {#yandex-cloud}

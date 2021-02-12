@@ -290,7 +290,9 @@ Default value: 1.
 When performing `INSERT` queries, replace omitted input column values with default values of the respective columns. This option only applies to [JSONEachRow](../../interfaces/formats.md#jsoneachrow), [CSV](../../interfaces/formats.md#csv) and [TabSeparated](../../interfaces/formats.md#tabseparated) formats.
 
 {% note info "Note" %}
+
     When this option is enabled, extended table metadata are sent from server to client. It consumes additional computing resources on the server and can reduce performance.
+
 {% endnote %}
 
 Possible values:
@@ -481,7 +483,9 @@ Default value: `ALL`.
 Changes behaviour of join operations with `ANY` strictness.
 
 {% note warning "Attention" %}
+
     This setting applies only for `JOIN` operations with [Join](../../engines/table-engines/special/join.md) engine tables.
+
 {% endnote %}
 
 Possible values:
@@ -554,7 +558,9 @@ Default value: 64.
 Enables legacy ClickHouse server behaviour in `ANY INNER|LEFT JOIN` operations.
 
 {% note info "Warning" %}
+
     Use this setting only for backward compatibility if your use cases depend on legacy `JOIN` behaviour.
+
 {% endnote %}
 
 When the legacy behaviour enabled:
@@ -850,7 +856,9 @@ Higher values will lead to higher memory usage.
 The maximum size of blocks of uncompressed data before compressing for writing to a table. By default, 1,048,576 (1 MiB). Specifying smaller block size generally leads to slightly reduced compression ratio, the compression and decompression speed increases slightly due to cache locality, and memory consumption is reduced.
 
 {% note info "Warning" %}
+
     This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
+
 {% endnote %}
 
 Don’t confuse blocks for compression (a chunk of memory consisting of bytes) with blocks for query processing (a set of rows from a table).
@@ -868,7 +876,9 @@ We are writing a UInt32-type column (4 bytes per value). When writing 8192 rows,
 We are writing a URL column with the String type (average size of 60 bytes per value). When writing 8192 rows, the average will be slightly less than 500 KB of data. Since this is more than 65,536, a compressed block will be formed for each mark. In this case, when reading data from the disk in the range of a single mark, extra data won’t be decompressed.
 
 {% note info "Warning" %}
+
     This is an expert-level setting, and you shouldn't change it if you're just getting started with Clickhouse.
+
 {% endnote %}
 
 ## max_query_size {#settings-max_query_size}
@@ -1088,7 +1098,9 @@ Possible values:
 Default value: 1.
 
 {% note warning "Warning" %}
+
     Disable this setting if you use [max_parallel_replicas](#settings-max_parallel_replicas).
+
 {% endnote %}
 
 ## totals_mode {#totals-mode}
@@ -1599,7 +1611,9 @@ See also:
 -   [optimize_skip_unused_shards](#optimize-skip-unused-shards)
 
 {% note info "Note" %}
+
     Right now it requires `optimize_skip_unused_shards` (the reason behind this is that one day it may be enabled by default, and it will work correctly only if data was inserted via Distributed table, i.e. data is distributed according to sharding_key).
+
 {% endnote %}
 
 ## optimize_throw_if_noop {#setting-optimize_throw_if_noop}
@@ -1695,7 +1709,9 @@ Default value: 0.
 Sets the priority ([nice](https://en.wikipedia.org/wiki/Nice_(Unix))) for threads that execute queries. The OS scheduler considers this priority when choosing the next thread to run on each available CPU core.
 
 {% note warning "Warning" %}
+
     To use this setting, you need to set the `CAP_SYS_NICE` capability. The `clickhouse-server` package sets it up during installation. Some virtual environments don’t allow you to set the `CAP_SYS_NICE` capability. In this case, `clickhouse-server` shows a message about it at the start.
+
 {% endnote %}
 
 Possible values:
@@ -1892,8 +1908,10 @@ Possible values:
 Default value: `1`.
 
 {% note info "Note" %}
+
     - with `use_compact_format_in_distributed_parts_names=0` changes from cluster definition will not be applied for async INSERT.
     - with `use_compact_format_in_distributed_parts_names=1` changing the order of the nodes in the cluster definition, will change the `shard_index`/`replica_index` so be aware.
+
 {% endnote %}
 
 ## background_buffer_flush_schedule_pool_size {#background_buffer_flush_schedule_pool_size}

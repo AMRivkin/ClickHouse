@@ -168,7 +168,9 @@ $ echo "SELECT 1" | gzip -c | curl -sS --data-binary @- -H 'Content-Encoding: gz
 ```
 
 {% note info "Note" %}
+
     Some HTTP clients might decompress data from the server by default (with `gzip` and `deflate`) and you might get decompressed data even if you use the compression settings correctly.
+
 {% endnote %}
 
 You can use the ‘database’ URL parameter or the ‘X-ClickHouse-Database’ header to specify the default database.
@@ -427,7 +429,9 @@ max_alter_threads   2
 ```
 
 {% note info "caution" %}
+
     In one `predefined_query_handler` only supports one `query` of an insert type.
+
 {% endnote %}
 
 ### dynamic_query_handler {#dynamic_query_handler}

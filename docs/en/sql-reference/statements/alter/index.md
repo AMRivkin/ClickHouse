@@ -17,7 +17,9 @@ Most `ALTER` queries modify table settings or data:
 -   [TTL](../../../sql-reference/statements/alter/ttl.md)
 
 {% note info "Note" %}
+
     Most `ALTER` queries are supported only for [\*MergeTree](../../../engines/table-engines/mergetree-family/index.md) tables, as well as [Merge](../../../engines/table-engines/special/merge.md) and [Distributed](../../../engines/table-engines/special/distributed.md).
+
 {% endnote %}
 
 While these `ALTER` settings modify entities related to role-based access control:

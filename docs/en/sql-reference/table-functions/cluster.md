@@ -9,7 +9,9 @@ Allows to access all shards in an existing cluster which configured in `remote_s
 `clusterAllReplicas` - same as `cluster` but all replicas are queried. Each replica in a cluster is used as separate shard/connection.
 
 {% note info "Note" %}
+
     All available clusters are listed in the `system.clusters` table.
+
 {% endnote %}
 
 Signatures:

@@ -51,6 +51,7 @@ Last but not least, the ClickHouse team always monitors the Internet on people c
 
 {% note info "Tips for building your own high-performance software" %}
 
+
     -   Keep in mind low-level details when designing your system.
     -   Design based on hardware capabilities.
     -   Choose data structures and abstractions based on the needs of the task.
@@ -60,5 +61,6 @@ Last but not least, the ClickHouse team always monitors the Internet on people c
     -   Benchmark on real datasets.
     -   Test for performance regressions in CI.
     -   Measure and observe everything.
+
 
 {% endnote %}

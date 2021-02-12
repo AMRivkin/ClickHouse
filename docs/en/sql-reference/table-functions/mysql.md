@@ -44,7 +44,9 @@ The rest of the conditions and the `LIMIT` sampling constraint are executed in C
 A table object with the same columns as the original MySQL table.
 
 {% note info "Note" %}
+
     In the `INSERT` query to distinguish table function `mysql(...)` from table name with column names list you must use keywords `FUNCTION` or `TABLE FUNCTION`. See examples below. 
+
 {% endnote %}
 
 **Examples**

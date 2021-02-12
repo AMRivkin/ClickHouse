@@ -24,7 +24,9 @@ Default value: 3600.
 Data compression settings for [MergeTree](../../engines/table-engines/mergetree-family/mergetree.md)-engine tables.
 
 {% note warning "Warning" %}
+
     Don’t use it if you have just started using ClickHouse.
+
 {% endnote %}
 
 Configuration template:
@@ -92,7 +94,9 @@ Possible values:
 Default value: `1073741824` (1 GB).
 
 {% note info "Note" %}
+
     Hard limit is configured via system tools
+
 {% endnote %}
 
 **Example**
@@ -712,7 +716,9 @@ Use the following parameters to configure logging:
 The path to the directory containing data.
 
 {% note info "Note" %}
+
     The trailing slash is mandatory.
+
 {% endnote %}
 
 **Example**
@@ -954,7 +960,9 @@ Example
 Path to temporary data for processing large queries.
 
 {% note info "Note" %}
+
     The trailing slash is mandatory.
+
 {% endnote %}
 
 **Example**
@@ -970,7 +978,9 @@ Policy from [storage_configuration](../../engines/table-engines/mergetree-family
 If not set, [tmp_path](#tmp-path) is used, otherwise it is ignored.
 
 {% note info "Note" %}
+
     - `move_factor` is ignored.
+
 {% endnote %}
 - `keep_free_space_bytes` is ignored.
 - `max_data_part_size_bytes` is ignored.
@@ -1090,7 +1100,9 @@ This setting only applies to the `MergeTree` family. It can be specified:
 If `use_minimalistic_part_header_in_zookeeper = 1`, then [replicated](../../engines/table-engines/mergetree-family/replication.md) tables store the headers of the data parts compactly using a single `znode`. If the table contains many columns, this storage method significantly reduces the volume of the data stored in Zookeeper.
 
 {% note alert "Attention" %}
+
     After applying `use_minimalistic_part_header_in_zookeeper = 1`, you can’t downgrade the ClickHouse server to a version that doesn’t support this setting. Be careful when upgrading ClickHouse on servers in a cluster. Don’t upgrade all the servers at once. It is safer to test new versions of ClickHouse in a test environment, or on just a few servers of a cluster.
+
 {% endnote %}
 
       Data part headers already stored with this setting can't be restored to their previous (non-compact) representation.

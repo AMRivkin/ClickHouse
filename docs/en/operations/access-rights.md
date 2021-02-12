@@ -25,7 +25,9 @@ You can configure access entities using:
 We recommend using SQL-driven workflow. Both of the configuration methods work simultaneously, so if you use the server configuration files for managing accounts and access rights, you can smoothly switch to SQL-driven workflow.
 
 {% note info "Warning" %}
+
     You can’t manage the same access entity by both configuration methods simultaneously.
+
 {% endnote %}
 
 ## Usage {#access-control-usage}

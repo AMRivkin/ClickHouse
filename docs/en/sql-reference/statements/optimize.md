@@ -21,5 +21,7 @@ When `OPTIMIZE` is used with the [ReplicatedMergeTree](../../engines/table-engin
 -   If you specify `DEDUPLICATE`, then completely identical rows will be deduplicated (all columns are compared), it makes sense only for the MergeTree engine.
 
 {% note warning "Warning" %}
+
     `OPTIMIZE` can’t fix the “Too many parts” error.
+
 {% endnote %}

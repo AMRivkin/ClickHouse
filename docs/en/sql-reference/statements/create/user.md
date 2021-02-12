@@ -48,7 +48,9 @@ Another way of specifying host is to use `@` syntax following the username. Exam
 -   `CREATE USER mira@'192.168.%.%'` — Equivalent to the `HOST LIKE` syntax.
 
 {% note info "Warning" %}
+
     ClickHouse treats `user_name@'address'` as a username as a whole. Thus, technically you can create multiple users with the same `user_name` and different constructions after `@`. However, we don’t recommend to do so.
+
 {% endnote %}
 
 ## Examples {#create-user-examples}

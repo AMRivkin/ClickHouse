@@ -13,7 +13,9 @@ Questions:
 -   [Can I use ClickHouse as a key-value storage?](../../faq/use-cases/key-value.md)
 
 {% note info "Don’t see what you were looking for?" %}
+
     Check out [other F.A.Q. categories](../../faq/index.md) or browse around main documentation articles found in the left sidebar.
+
 {% endnote %}
 
 

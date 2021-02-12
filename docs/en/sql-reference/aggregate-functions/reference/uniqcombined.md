@@ -35,7 +35,9 @@ Function:
 -   Provides the result deterministically (it doesn’t depend on the query processing order).
 
 {% note info "Note" %}
+
     Since it uses 32-bit hash for non-`String` type, the result will have very high error for cardinalities significantly larger than `UINT_MAX` (error will raise quickly after a few tens of billions of distinct values), hence in this case you should use [uniqCombined64](../../../sql-reference/aggregate-functions/reference/uniqcombined64.md#agg_function-uniqcombined64)
+
 {% endnote %}
 
 Compared to the [uniq](../../../sql-reference/aggregate-functions/reference/uniq.md#agg_function-uniq) function, the `uniqCombined`:

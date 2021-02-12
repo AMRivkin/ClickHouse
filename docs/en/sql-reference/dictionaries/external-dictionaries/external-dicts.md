@@ -46,7 +46,9 @@ You can [configure](../../../sql-reference/dictionaries/external-dictionaries/ex
 [DDL queries for dictionaries](../../../sql-reference/statements/create/dictionary.md) doesn’t require any additional records in server configuration. They allow to work with dictionaries as first-class entities, like tables or views.
 
 {% note alert "Attention" %}
+
     You can convert values for a small dictionary by describing it in a `SELECT` query (see the [transform](../../../sql-reference/functions/other-functions.md) function). This functionality is not related to external dictionaries.
+
 {% endnote %}
 
 ## See Also {#ext-dicts-see-also}

@@ -14,7 +14,9 @@ ClickHouse supports the following syntax variants:
 During query processing, ClickHouse selects data ordered by sorting key. The sorting key is set explicitly using an [ORDER BY](../../../sql-reference/statements/select/order-by.md) clause or implicitly as a property of the table engine. Then ClickHouse applies `LIMIT n BY expressions` and returns the first `n` rows for each distinct combination of `expressions`. If `OFFSET` is specified, then for each data block that belongs to a distinct combination of `expressions`, ClickHouse skips `offset_value` number of rows from the beginning of the block and returns a maximum of `n` rows as a result. If `offset_value` is bigger than the number of rows in the data block, ClickHouse returns zero rows from the block.
 
 {% note info "Note" %}
+
     `LIMIT BY` is not related to [LIMIT](../../../sql-reference/statements/select/limit.md). They can both be used in the same query.
+
 {% endnote %}
 
 ## Examples {#examples}

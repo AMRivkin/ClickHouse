@@ -81,7 +81,9 @@ geohashesInBox(longitude_min, latitude_min, longitude_max, latitude_max, precisi
 -   `precision` — Geohash precision. Range: `[1, 12]`. Type: [UInt8](../../../sql-reference/data-types/int-uint.md).
 
 {% note info "Note" %}
+
     All coordinate parameters must be of the same type: either `Float32` or `Float64`.
+
 {% endnote %}
 
 **Returned values**
@@ -92,7 +94,9 @@ geohashesInBox(longitude_min, latitude_min, longitude_max, latitude_max, precisi
 Type: [Array](../../../sql-reference/data-types/array.md)([String](../../../sql-reference/data-types/string.md)).
 
 {% note info "Note" %}
+
     Function throws an exception if resulting array is over 10’000’000 items long.
+
 {% endnote %}
 
 **Example**

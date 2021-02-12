@@ -43,7 +43,9 @@ When creating a `AggregatingMergeTree` table the same [clauses](../../../engines
 <summary>Deprecated Method for Creating a Table</summary>
 
 {% note alert "Attention" %}
+
     Do not use this method in new projects and, if possible, switch the old projects to the method described above.
+
 {% endnote %}
 
 ``` sql

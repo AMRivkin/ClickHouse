@@ -685,7 +685,9 @@ CREATE TABLE IF NOT EXISTS example_table
 -   If `input_format_defaults_for_omitted_fields = 1`, then the default value for `x` equals `0`, but the default value of `a` equals `x * 2`.
 
 {% note info "Warning" %}
+
     When inserting data with `insert_sample_with_metadata = 1`, ClickHouse consumes more computational resources, compared to insertion with `insert_sample_with_metadata = 0`.
+
 {% endnote %}
 
 ### Selecting Data {#selecting-data}
@@ -709,7 +711,9 @@ The query `SELECT * FROM UserActivity FORMAT JSONEachRow` returns:
 Unlike the [JSON](#json) format, there is no substitution of invalid UTF-8 sequences. Values are escaped in the same way as for `JSON`.
 
 {% note info "Note" %}
+
     Any set of bytes can be output in the strings. Use the `JSONEachRow` format if you are sure that the data in the table can be formatted as JSON without losing any information.
+
 {% endnote %}
 
 ### Usage of Nested Structures {#jsoneachrow-nested}
@@ -1225,7 +1229,9 @@ SELECT * FROM topic1_stream;
 ```
 
 {% note info "Warning" %}
+
     Setting `format_avro_schema_registry_url` needs to be configured in `users.xml` to maintain it’s value after a restart. Also you can use the `format_avro_schema_registry_url` setting of the `Kafka` table engine.
+
 {% endnote %}
 
 ## Parquet {#data-format-parquet}
