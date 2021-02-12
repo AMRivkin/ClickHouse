@@ -23,9 +23,7 @@ To run ClickHouse on processors that do not support SSE 4.2 or have AArch64 or P
 
 It is recommended to use official pre-compiled `deb` packages for Debian or Ubuntu. Run these commands to install packages:
 
-``` bash
-{% include [deb](install/deb.sh) %}
-```
+{% code 'install/deb.sh' lang='bash' %}
 
 If you want to use the most recent version, replace `stable` with `testing` (this is recommended for your testing environments).
 
