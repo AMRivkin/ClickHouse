@@ -2,8 +2,6 @@ title: ClickHouse
 items:
 - name: Introduction
   items:
-  - name: Introduction
-    href: introduction/index.md
   - name: Overview
     href: index.md
   - name: Distinctive Features
@@ -186,11 +184,11 @@ items:
       href: engines/database-engines/lazy.md
 - name: SQL Reference
   items:
-  - name: SQL Reference
+  - name: Overview
     href: sql-reference/index.md
   - name: Statements
     items:
-    - name: Statements
+    - name: Overview
       href: sql-reference/statements/index.md
     - name: SELECT
       items:
@@ -270,7 +268,7 @@ items:
         href: sql-reference/statements/alter/order-by.md
       - name: SAMPLE BY
         href: sql-reference/statements/alter/sample-by.md
-      - name: INDEX|hidden-folder
+      - name: INDEX
         items:
         - name: INDEX
           href: sql-reference/statements/alter/index/index.md
@@ -916,25 +914,25 @@ items:
   items:
   - name: F.A.Q.
     href: faq/index.md
-  - name: General|hidden-folder
+  - name: General
     items:
     - name: General
       href: faq/general/index.md
-    - name: Why clickhouse is so fast
+    - name: Why ClickHouse is so fast
       href: faq/general/why-clickhouse-is-so-fast.md
-    - name: Who is using clickhouse
+    - name: Who is using ClickHouse
       href: faq/general/who-is-using-clickhouse.md
-    - name: Dbms naming
+    - name: DBMS naming
       href: faq/general/dbms-naming.md
     - name: Ne tormozit
       href: faq/general/ne-tormozit.md
-    - name: Olap
+    - name: OLAP
       href: faq/general/olap.md
     - name: Columnar database
       href: faq/general/columnar-database.md
     - name: Mapreduce
       href: faq/general/mapreduce.md
-  - name: Use Cases|hidden-folder
+  - name: Use Cases
     items:
     - name: Use Cases
       href: faq/use-cases/index.md
@@ -942,7 +940,7 @@ items:
       href: faq/use-cases/time-series.md
     - name: Key value
       href: faq/use-cases/key-value.md
-  - name: Operations|hidden-folder
+  - name: Operations
     items:
     - name: Operations
       href: faq/operations/index.md
@@ -950,15 +948,15 @@ items:
       href: faq/operations/production.md
     - name: Delete old data
       href: faq/operations/delete-old-data.md
-  - name: Integration|hidden-folder
+  - name: Integration
     items:
     - name: Integration
       href: faq/integration/index.md
     - name: File export
       href: faq/integration/file-export.md
-    - name: Json import
+    - name: JSON import
       href: faq/integration/json-import.md
-    - name: Oracle odbc
+    - name: Oracle ODBC
       href: faq/integration/oracle-odbc.md
 - name: What's New
   items:
