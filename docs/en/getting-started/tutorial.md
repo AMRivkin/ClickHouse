@@ -16,7 +16,7 @@ To postpone the complexities of a distributed environment, we’ll start with de
 For example, you have chosen `deb` packages and executed:
 
 ``` bash
-{% include 'install/deb.sh' %}
+{% include [deb](install/deb.sh) %}
 ```
 
 What do we have in the packages that got installed:

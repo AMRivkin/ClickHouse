@@ -58,5 +58,5 @@ LIMIT 10
 ```
 
 ``` text
-{% include "examples/sampling_query_profiler_result.txt" %}
+{% include [sampling_query_profiler_result](examples/sampling_query_profiler_result.txt) %}
 ```

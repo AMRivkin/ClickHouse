@@ -4,4 +4,4 @@ toc_priority: 74
 toc_title: '2021'
 ---
 
-{% include "content/changelog.md" %}
+{% include [changelog](content/changelog.md) %}
